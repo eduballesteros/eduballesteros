@@ -7,9 +7,14 @@
 </div>
 
 <div align="center">
-  <h4>Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend</h4>
+  <h4>
+    <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
+      const role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend";  
+    </span>
+  </h4>
 </div>
 
+___
 
 ### 🚀 Skills & Technologies  
 
@@ -47,4 +52,3 @@ ___
 ___
 
 ![Profile Views](https://komarev.com/ghpvc/?username=eduballesteros&style=flat-square&color=blue)
-
