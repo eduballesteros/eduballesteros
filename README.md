@@ -1,8 +1,10 @@
 <div align="center">
-  <h3>Hi, I'm Edu Ballesteros! 👋 </h3>
+  <h3>
+    <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
+      const name = "Edu Ballesteros";  
+    </span>
+  </h3>
 </div>
-
-#### 
 
 <div align="center">
   <h4>Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend</h4>
