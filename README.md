@@ -1,10 +1,12 @@
 <div align="center">
-  <h3>Hi, I'm Edu Ballesteros!  👋 </h3>
-
-#### Web Application Development Student at Centro Educativo Altair | Focused on Frontend and Backend Technologies  
+  <h3>Hi, I'm Edu Ballesteros! 👋 </h3>
 </div>
+
 ____
 
+#### Web Application Development Student at Centro Educativo Altair | Focused on Frontend and Backend Technologies  
+
+___
 
 ### 🚀 Skills & Technologies  
 
@@ -42,3 +44,4 @@ ___
 ___
 
 ![Profile Views](https://komarev.com/ghpvc/?username=eduballesteros&style=flat-square&color=blue)
+
