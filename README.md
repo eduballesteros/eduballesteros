@@ -7,7 +7,7 @@
 <div align="center">
   <h3>Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend</h3>
 </div>
-___
+
 
 ### 🚀 Skills & Technologies  
 
