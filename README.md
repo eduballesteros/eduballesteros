@@ -1,5 +1,5 @@
 <p align="center">
-  <h3>Hi, I'm Edu Ballesteros! ![](https://media.giphy.com/media/3o7btVf1uW3v0F2V3m/giphy.gif)</h3>  
+  <h3> ![](https://media.giphy.com/media/3o7btVf1uW3v0F2V3m/giphy.gif) Hi, I'm Edu Ballesteros!</h3>  
 </p>
 
 
