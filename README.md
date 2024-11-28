@@ -9,7 +9,7 @@
 <div align="center">
   <h4>
     <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
-      const role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend";  
+      var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend";  
     </span>
   </h4>
 </div>
