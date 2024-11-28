@@ -1,6 +1,4 @@
-<p align="center">
-  <h3> ![](https://media.giphy.com/media/3o7btVf1uW3v0F2V3m/giphy.gif) Hi, I'm Edu Ballesteros!</h3>  
-</p>
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Edu  
 
 
 #### Web Application Development Student at Centro Educativo Altair | Focused on Frontend and Backend Technologies  
