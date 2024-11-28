@@ -2,10 +2,11 @@
   <h3>Hi, I'm Edu Ballesteros! 👋 </h3>
 </div>
 
-____
-
-#### Web Application Development Student at Centro Educativo Altair | Focused on Frontend and Backend Technologies  
-
+#### 
+Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend
+<div align="center">
+  <h3>Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Enfocado en Tecnologías Frontend y Backend</h3>
+</div>
 ___
 
 ### 🚀 Skills & Technologies  
