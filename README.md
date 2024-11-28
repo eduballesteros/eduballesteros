@@ -1,5 +1,5 @@
 <div align="center">
-  <h3>Hi, I'm Edu Ballesteros!</h3>
+  <h3>Hi, I'm Edu Ballesteros!  👋 </h3>
 
 #### Web Application Development Student at Centro Educativo Altair | Focused on Frontend and Backend Technologies  
 </div>
