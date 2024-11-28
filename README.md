@@ -3,7 +3,8 @@
 
 #### Web Application Development Student at Centro Educativo Altair | Focused on Frontend and Backend Technologies  
 </div>
-___
+____
+
 
 ### 🚀 Skills & Technologies  
 
