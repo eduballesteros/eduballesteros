@@ -1,30 +1,12 @@
 <div align="center">
-  <!-- Nombre -->
-  <div style="
-    font-family: 'Courier New', Courier, monospace; 
-    color: #4caf50; 
-    font-size: 2.5em; 
-    font-weight: bold; 
-    margin: 0; 
-    padding: 0;
-    line-height: 1;
-  ">
+  <h1 style="color: #4caf50; font-family: 'Courier New', Courier, monospace; margin-bottom: 0;">
     const name = "Edu Ballesteros";
-  </div>
-  
-  <!-- Rol -->
-  <div style="
-    font-family: 'Courier New', Courier, monospace; 
-    color: #4caf50; 
-    font-size: 1.5em; 
-    font-weight: normal; 
-    margin: 5px 0 0; 
-    padding: 0;
-    line-height: 1;
-  ">
+  </h1>
+  <h3 style="color: #4caf50; font-family: 'Courier New', Courier, monospace; margin-top: 5px;">
     var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
-  </div>
+  </h3>
 </div>
+
 
 
 ## 🚀 **Skills & Technologies**
