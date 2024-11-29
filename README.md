@@ -11,8 +11,6 @@
   </h3>
 </div>
 
----
-
 ## 🚀 **Skills & Technologies**
 
 <div align="center">
@@ -36,8 +34,6 @@
   </a>
 </div>
 
----
----
 
 ## 📊 **GitHub Profile Insights**
 
