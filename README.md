@@ -6,7 +6,7 @@
   </h1>
   <h3>
     <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
-      var role = "Estudiante de Desarrollo de Aplicaciones Web | Altair | Tecnologías Frontend & Backend";
+      var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
     </span>
   </h3>
 </div>
