@@ -15,8 +15,9 @@
 </div>
 
 ___
-
+<div align="center">
 ## 🚀 Skills & Technologies  
+</div>
 <div align="center">
 <p>
   <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer">
