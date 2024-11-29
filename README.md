@@ -1,9 +1,9 @@
 <div align="center">
-  <h1 style="margin-bottom: 0;">
+  <h2 style="margin-bottom: 0;">
     <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
       const name = "Edu Ballesteros";
     </span>
-  </h1>
+  </h2>
   <h3 style="margin-top: 5px;">
     <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
       var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
