@@ -1,12 +1,17 @@
 <div align="center">
-  <h1 style="color: #4caf50; font-family: 'Courier New', Courier, monospace; margin-bottom: 0;">
-    const name = "Edu Ballesteros";
-
+  <p style="
+    font-family: 'Courier New', Courier, monospace; 
+    color: #4caf50; 
+    background-color: #1e1e1e; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    text-align: left;
+  ">
+    const name = "Edu Ballesteros";<br>
     var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
-  </h1>
+  </p>
 </div>
-
-
 
 ## 🚀 **Skills & Technologies**
 
