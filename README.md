@@ -37,17 +37,31 @@
 </div>
 
 ---
+---
 
-## 📊 **GitHub Stats & Badges**
+## 📊 **GitHub Profile Insights**
 
 <div align="center">
-  <a href="http://www.github.com/eduballesteros">
-    <img src="https://github-readme-stats.vercel.app/api?username=eduballesteros&show_icons=true&count_private=true&hide=&title_color=4caf50&text_color=ffffff&icon_color=4caf50&bg_color=1c1917&hide_border=true&show_icons=true" alt="GitHub Stats" width="400" />
+  <!-- GitHub Stats -->
+  <a href="https://github.com/eduballesteros">
+    <img src="https://github-readme-stats.vercel.app/api?username=eduballesteros&show_icons=true&count_private=true&hide=prs&title_color=4caf50&text_color=ffffff&icon_color=4caf50&bg_color=1c1917&hide_border=true&locale=en" alt="GitHub Stats" width="400" />
   </a>
+
+  <!-- Streak Stats -->
+  <a href="https://github.com/eduballesteros">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=eduballesteros&stroke=ffffff&background=1c1917&ring=4caf50&fire=4caf50&currStreakNum=ffffff&currStreakLabel=4caf50&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak" width="400" />
+  </a>
+
+  <!-- Most Used Languages -->
+  <a href="https://github.com/eduballesteros">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduballesteros&langs_count=10&title_color=4caf50&text_color=ffffff&icon_color=4caf50&bg_color=1c1917&hide_border=true&locale=en&layout=compact" alt="Top Languages" width="400" />
+  </a>
+
+  <!-- Profile Views -->
   <br />
   <img src="https://komarev.com/ghpvc/?username=eduballesteros&style=flat-square&color=blue" alt="Profile Views" />
 </div>
 
-___
+---
 
-![Profile Views](https://komarev.com/ghpvc/?username=eduballesteros&style=flat-square&color=blue)
+
