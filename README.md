@@ -1,14 +1,29 @@
 <div align="center">
-  <h1 style="margin-bottom: 0; border: none; text-decoration: none;">
-    <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
-      const name = "Edu Ballesteros";
-    </span>
-  </h1>
-  <h3 style="margin-top: 5px; border: none; text-decoration: none;">
-    <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
-      var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
-    </span>
-  </h3>
+  <!-- Nombre -->
+  <div style="
+    font-family: 'Courier New', Courier, monospace; 
+    color: #4caf50; 
+    font-size: 2.5em; 
+    font-weight: bold; 
+    margin: 0; 
+    padding: 0;
+    line-height: 1;
+  ">
+    const name = "Edu Ballesteros";
+  </div>
+  
+  <!-- Rol -->
+  <div style="
+    font-family: 'Courier New', Courier, monospace; 
+    color: #4caf50; 
+    font-size: 1.5em; 
+    font-weight: normal; 
+    margin: 5px 0 0; 
+    padding: 0;
+    line-height: 1;
+  ">
+    var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
+  </div>
 </div>
 
 
@@ -36,7 +51,6 @@
 </div>
 
 
-
 ## 📊 **GitHub Stats & Badges**
 
 <div align="center">
@@ -47,6 +61,6 @@
   <img src="https://komarev.com/ghpvc/?username=eduballesteros&style=flat-square&color=blue" alt="Profile Views" />
 </div>
 
----
+
 
 
