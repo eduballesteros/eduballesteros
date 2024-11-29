@@ -1,16 +1,15 @@
 <div align="center">
-  <h2 style="margin-bottom: 0;">
+  <h1 style="margin-bottom: 0; border: none; text-decoration: none;">
     <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
       const name = "Edu Ballesteros";
     </span>
-  </h2>
-  <h3 style="margin-top: 5px;">
+  </h1>
+  <h3 style="margin-top: 5px; border: none; text-decoration: none;">
     <span style="font-family: 'Courier New', Courier, monospace; color: #4caf50;">
       var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
     </span>
   </h3>
 </div>
-
 
 
 ## 🚀 **Skills & Technologies**
