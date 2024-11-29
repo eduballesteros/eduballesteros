@@ -17,7 +17,7 @@
 ___ 
 ## 🚀 Skills & Technologies  
  
-<div align="center">
+
 <p>
   <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" width="40" height="40" alt="C#" title="C#" />
@@ -38,7 +38,7 @@ ___
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="40" height="40" alt="Linux" title="Linux" />
   </a>
 </p>  
-</div>
+
 ___
 
 ### 📊 GitHub Stats & Badges
