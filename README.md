@@ -22,9 +22,6 @@ var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Alt
   <a href="https://angular.io/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg" width="50" height="50" alt="Angular" title="Angular" />
   </a>
-  <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="50" height="50" alt="NodeJS" title="NodeJS" />
-  </a>
   <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="50" height="50" alt="PostgreSQL" title="PostgreSQL" />
   </a>
