@@ -3,7 +3,7 @@
 <pre>
 <code>
 const name = "Edu Ballesteros";
-var role = "Estudiante de Desarrollo de Aplicaciones Web en Centro Educativo Altair | Tecnologías Frontend & Backend";
+var role = "Técnico Superior en Desarollo de Aplicaciones Web | Tecnologías Frontend & Backend";
 </code>
 </pre>
 
