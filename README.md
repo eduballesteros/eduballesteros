@@ -80,10 +80,11 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
   <a href="https://github.com/eduballesteros">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduballesteros&layout=compact&theme=onedark&hide_border=true&border_radius=10" alt="Lenguajes Principales" />
   </a>
-  <br>
   <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.org/?user=eduballesteros&theme=onedark&hide_border=true&border_radius=10" alt="Racha de Contribuciones" />
+    [![GitHub Streak](https://streak-stats.demolab.com/?user=eduballesteros&theme=onedark&hide_border=true&border_radius=10)](https://git.io/streak-stats)
   </a>
+  <br>
+  
 </div>
 
 ---
@@ -94,10 +95,10 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
   <a href="https://www.linkedin.com/in/eduballesteross/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:Tu_Correo@ejemplo.com">
+  <a href="mailto:ballesterospereze@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="[Tu URL aquí]">
+  <a href="https://eduballesteros.es/">
     <img src="https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=portfolio&logoColor=white" alt="Portafolio" />
   </a>
 </p>
@@ -106,12 +107,11 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
 
 ### 🌟 Proyectos Destacados
 
-* **[Proyecto .NET/SQL]:** Breve descripción sobre un proyecto que demuestre tu base en estas tecnologías.
 * **[Proyecto Laravel/Vue]:** Breve descripción de una aplicación web completa.
 * **[Proyecto de IA o Spring]:** El proyecto más reciente que refleje tu transición a la IA o Java.
 
 ---
 
 <p align="center">
-    ¡Gracias por visitar mi rincón en GitHub!
+    ¡Gracias por visitar mi perfil en GitHub!
 </p>
