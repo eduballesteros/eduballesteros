@@ -19,7 +19,7 @@ var role = "Desarrollador Web & Backend | Evolucionando hacia IA Generativa y Ja
 
 ### 🎯 Acerca de Mí
 
-Soy **Desarrollador Web y Backend** con una base sólida en **.NET, SQL Server, Laravel y Vue 3**. Esta experiencia me ha brindado una visión completa del ciclo de desarrollo, abarcando tanto el frontend como el backend, siempre con un enfoque en las buenas prácticas y el trabajo en equipo.
+Soy **Desarrollador Web y Backend** con experiencia en tecnologías como **.NET, SQL Server, Laravel y Vue 3**. Esta experiencia me ha brindado una visión completa del ciclo de desarrollo, abarcando tanto el frontend como el backend, aplicando siempre buenas prácticas y trabajo en equipo.
 
 **🚀 Evolucionando mi perfil:**
 Actualmente, estoy inmerso en la **Inteligencia Artificial Generativa** a través del Máster en EBIS, con el objetivo de certificarme como **Azure AI Engineer Associate (AI-102)**. En paralelo, refuerzo mis habilidades backend con formación en el ecosistema **Java/Spring** y en fundamentos clave como SOLID, Clean Code y Clean Architecture.
@@ -30,26 +30,42 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
 
 ### 🛠️ Mi Stack de Tecnología Favorito
 
-<h3 align="center">Lenguajes y Backend</h3>
+<h3 align="center">Lenguajes y Frameworks Principales</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A5?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="45" height="45"/>
+  </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="45" height="45"/>
+  </a>
+  <a href="https://spring.io/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="45" height="45"/>
+  </a>
+  <a href="https://angular.io" target="_blank" rel="noreferrer">
+    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="45" height="45"/>
+  </a>
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="45" height="45"/>
+  </a>
 </p>
 
-<h3 align="center">Frameworks & Librerías</h3>
+<h3 align="center">Otras Tecnologías y Herramientas</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
-</p>
-
-<h3 align="center">Cloud, DevOps e IA</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <a href="https://www.python.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="45" height="45"/>
+  </a>
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="45" height="45"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="45" height="45"/>
+  </a>
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="45" height="45"/>
+  </a>
+  <a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" alt="azure" width="45" height="45"/>
+  </a>
 </p>
 
 ---
