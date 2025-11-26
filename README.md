@@ -80,11 +80,10 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
   <a href="https://github.com/eduballesteros">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduballesteros&layout=compact&theme=onedark&hide_border=true&border_radius=10" alt="Lenguajes Principales" />
   </a>
+  <br>
   <a href="https://git.io/streak-stats">
     [![GitHub Streak](https://streak-stats.demolab.com/?user=eduballesteros&theme=onedark&hide_border=true&border_radius=10)](https://git.io/streak-stats)
   </a>
-  <br>
-  
 </div>
 
 ---
