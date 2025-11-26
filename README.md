@@ -38,7 +38,7 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="45" height="45"/>
   </a>
-   <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
+  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="45" height="45"/>
   </a>
   <a href="https://spring.io/" target="_blank" rel="noreferrer">
@@ -81,8 +81,8 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduballesteros&layout=compact&theme=onedark&hide_border=true&border_radius=10" alt="Lenguajes Principales" />
   </a>
   <br>
-  <a href="https://git.io/streak-stats">
-    [![GitHub Streak](https://streak-stats.demolab.com/?user=eduballesteros&theme=onedark&hide_border=true&border_radius=10)](https://git.io/streak-stats)
+  <a href="https://streak-stats.demolab.com/?user=eduballesteros&theme=onedark">
+    [![GitHub Streak](https://streak-stats.demolab.com/?user=eduballesteros&theme=onedark&hide_border=true&border_radius=10)](https://streak-stats.demolab.com/?user=eduballesteros&theme=onedark)
   </a>
 </div>
 
@@ -106,8 +106,18 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
 
 ### 🌟 Proyectos Destacados
 
-* **[Proyecto Laravel/Vue]:** Breve descripción de una aplicación web completa.
-* **[Proyecto de IA o Spring]:** El proyecto más reciente que refleje tu transición a la IA o Java.
+<div align="center">
+    <a href="https://github.com/eduballesteros/DocuMind-RAG-System">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=DocuMind-RAG-System&theme=onedark&hide_border=true" alt="DocuMind-RAG-System" />
+    </a>
+    <a href="https://github.com/eduballesteros/ebis-ai-master">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=ebis-ai-master&theme=onedark&hide_border=true" alt="ebis-ai-master" />
+    </a>
+    <br/>
+    <a href="https://github.com/eduballesteros/terra-nostra">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=terra-nostra&theme=onedark&hide_border=true" alt="terra-nostra" />
+    </a>
+</div>
 
 ---
 
