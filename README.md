@@ -17,11 +17,11 @@ var role = "Desarrollador Web & Backend | Evolucionando hacia IA Generativa y Ja
 
 ---
 
-### 🎯 Acerca de Mí
+###  Acerca de Mí
 
 Soy **Desarrollador Web y Backend** con experiencia en tecnologías como **.NET, SQL Server, Laravel y Vue 3**. Esta experiencia me ha brindado una visión completa del ciclo de desarrollo, abarcando tanto el frontend como el backend, aplicando siempre buenas prácticas y trabajo en equipo.
 
-**🚀 Evolucionando mi perfil:**
+** Evolucionando mi perfil:**
 Actualmente, estoy inmerso en la **Inteligencia Artificial Generativa** a través del Máster en EBIS, con el objetivo de certificarme como **Azure AI Engineer Associate (AI-102)**. En paralelo, refuerzo mis habilidades backend con formación en el ecosistema **Java/Spring** y en fundamentos clave como SOLID, Clean Code y Clean Architecture.
 
 Busco activamente oportunidades como Desarrollador Web o Backend donde pueda aplicar mi base tecnológica y mis nuevos conocimientos en IA.
@@ -70,7 +70,7 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
 
 ---
 
-### 🔥 Mis Estadísticas de GitHub
+###  Mis Estadísticas de GitHub
 
 <div align="center">
   <a href="https://github.com/eduballesteros">
@@ -85,7 +85,7 @@ Busco activamente oportunidades como Desarrollador Web o Backend donde pueda apl
 
 ---
 
-### 🌟 Proyectos Destacados
+###  Proyectos Destacados
 
 <div align="center">
     <a href="https://github.com/eduballesteros/DocuMind-RAG-System">
