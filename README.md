@@ -76,16 +76,15 @@ Actualmente, estoy inmerso en la **Inteligencia Artificial Generativa** a travé
 ### 🔥 Proyectos Destacados
 
 <div align="center">
-    <a href="https://github.com/eduballesteros/DocuMind-RAG-System">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=DocuMind-RAG-System&theme=onedark&hide_border=true" alt="DocuMind-RAG-System" />
-    </a>
-    <a href="https://github.com/eduballesteros/ebis-ai-master">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=ebis-ai-master&theme=onedark&hide_border=true" alt="ebis-ai-master" />
-    </a>
-    <br/>
-    <a href="https://github.com/eduballesteros/terra-nostra">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=terra-nostra&theme=onedark&hide_border=true" alt="terra-nostra" />
-    </a>
+    <a href="https://github.com/eduballesteros/DocuMind-RAG-System">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=DocuMind-RAG-System&theme=onedark&hide_border=true" alt="DocuMind-RAG-System" />
+    </a>
+    <a href="https://github.com/eduballesteros/ebis-ai-master">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=ebis-ai-master&theme=onedark&hide_border=true" alt="ebis-ai-master" />
+    </a>
+    <a href="https://github.com/eduballesteros/terra-nostra">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=terra-nostra&theme=onedark&hide_border=true" alt="terra-nostra" />
+    </a>
 </div>
 
 ---
