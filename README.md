@@ -8,7 +8,7 @@
 
 const name = "Edu Ballesteros";
 
-var role = "Desarrollador Web & Backend | Evolucionando hacia IA Generativa y Java/Spring";
+var role = "Desarrollador Web & Backend ";
 
 </code>
 
