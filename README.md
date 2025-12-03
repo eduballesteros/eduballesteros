@@ -1,12 +1,19 @@
 <h1 align="center">¡Hola, soy Edu! 👋</h1>
 
 <div align="center">
+
 <pre>
+
 <code>
+
 const name = "Edu Ballesteros";
-var role = "Desarrollador Web & Backend.";
+
+var role = "Desarrollador Web & Backend |";
+
 </code>
+
 </pre>
+
 </div>
 
 <br>
