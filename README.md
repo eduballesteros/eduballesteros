@@ -30,7 +30,7 @@ Soy **Desarrollador Web y Backend** con experiencia en tecnologías como **.NET,
 
 
 
-** Evolucionando mi perfil:**
+#### Evolucionando mi perfil:
 
 Actualmente, estoy inmerso en la **Inteligencia Artificial Generativa** a través del Máster en EBIS, con el objetivo de certificarme como **Azure AI Engineer Associate (AI-102)**. En paralelo, refuerzo mis habilidades backend con formación en el ecosistema **Java/Spring** y en fundamentos clave como SOLID, Clean Code y Clean Architecture.
 
