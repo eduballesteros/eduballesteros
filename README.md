@@ -26,7 +26,7 @@ var role = "Desarrollador Web & Backend | Estudiante de Master en Ingenieria en 
 
 ### 🗣️ Acerca de Mí
 
-Soy **Desarrollador Web y Backend** con experiencia en tecnologías como **.NET, SQL Server, Laravel y Vue 3**. Esta experiencia me ha brindado una visión completa del ciclo de desarrollo, abarcando tanto el frontend como el backend, aplicando siempre buenas prácticas y trabajo en equipo.
+Soy **Desarrollador Web y Backend** con experiencia en tecnologías como **.NET, Spring, Java y Angular**. Esta experiencia me ha brindado una visión completa del ciclo de desarrollo, abarcando tanto el frontend como el backend, aplicando siempre buenas prácticas y trabajo en equipo.
 
 
 
