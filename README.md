@@ -64,11 +64,9 @@ Actualmente, estoy inmerso en la **Inteligencia Artificial Generativa** a travé
   <a href="https://github.com/eduballesteros">
     <img src="https://github-readme-stats.vercel.app/api?username=eduballesteros&show_icons=true&count_private=true&theme=onedark&hide_border=true&border_radius=10" alt="Estadísticas de GitHub" />
   </a>
-  <br>
   <a href="https://github.com/eduballesteros">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduballesteros&layout=compact&theme=onedark&hide_border=true&border_radius=10" alt="Lenguajes Principales" />
   </a>
-  <br>
 </div>
 
 ---
