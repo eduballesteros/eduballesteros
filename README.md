@@ -16,7 +16,6 @@
   "ahora": "APIs e integración bancaria en NTT DATA (cliente: Unicaja)",
   "construyendo": ["BarberMind · agente de IA + arquitectura hexagonal", "AWS DVA-C02 · Cloud Native"],
   "principios": ["SOLID", "Clean Architecture", "Hexagonal", "Clean Code"],
-  "disponible_para": ["freelance", "colaboraciones", "charlar de tecnología"]
 }
 ```
 
@@ -96,7 +95,6 @@ E-commerce full stack con microservicios y arquitectura limpia en capas. Segurid
 <p align="center">
   <a href="https://github.com/eduballesteros/barbermind"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=barbermind&theme=tokyonight&hide_border=true" alt="BarberMind"/></a>
   <a href="https://github.com/eduballesteros/terra-nostra"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=terra-nostra&theme=tokyonight&hide_border=true" alt="Terra Nostra"/></a>
-  <a href="https://github.com/eduballesteros/ebis-ai-master"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=ebis-ai-master&theme=tokyonight&hide_border=true" alt="ebis-ai-master"/></a>
 </p>
 
 ---
