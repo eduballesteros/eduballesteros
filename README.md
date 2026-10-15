@@ -72,7 +72,7 @@ Gestión de citas B2B potenciada por IA y mensajería asíncrona. El reto: alta 
 
 ```mermaid
 flowchart LR
-    C["Cliente Angular"] --> API["FastAPI<br/>puerto de entrada"]
+    C["Cliente Angular"] --> API["Spring Boot<br/>puerto de entrada"]
     subgraph HEX["Hexágono"]
         API --> UC["Casos de uso"]
         UC --> DOM["Dominio de citas"]
@@ -84,7 +84,7 @@ flowchart LR
     AG --> DB
 ```
 
-`Python` `FastAPI` `PostgreSQL` `Redis` `RabbitMQ` `Docker` `Angular`
+`Java` `Spring Boot` `PostgreSQL` `Redis` `RabbitMQ` `Docker` `Angular`
 
 ### 🌿 [Terra Nostra](https://github.com/eduballesteros/terra-nostra)
 
