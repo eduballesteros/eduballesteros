@@ -72,16 +72,13 @@ Gestión de citas B2B potenciada por IA y mensajería asíncrona. El reto: alta 
 
 ```mermaid
 flowchart LR
-    C["Cliente Angular"] --> API["Spring Boot<br/>puerto de entrada"]
+    MCP["Servidor MCP<br/>(Model Context Protocol)"] --> API["Spring Boot<br/>puerto de entrada"]
     subgraph HEX["Hexágono"]
         API --> UC["Casos de uso"]
-        UC --> DOM["Dominio de citas"]
+        UC --> DOM["Dominio<br/>Citas · Barberos"]
     end
-    UC --> R[("Redis<br/>locks distribuidos")]
-    UC --> Q{{"RabbitMQ"}}
     UC --> DB[("PostgreSQL")]
-    UC --> AG["Agente LangChain"]
-    AG --> DB
+    MCP -.->|"tools / resources"| AI["Agente IA"]
 ```
 
 `Java` `Spring Boot` `PostgreSQL` `Redis` `RabbitMQ` `Docker` `Angular`
