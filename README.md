@@ -118,11 +118,6 @@ Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: ca
 </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/eduballesteros/barbermind"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=barbermind&theme=tokyonight&hide_border=true" alt="BarberMind"/></a>
-  <a href="https://github.com/eduballesteros/terra-nostra"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=terra-nostra&theme=tokyonight&hide_border=true" alt="Terra Nostra"/></a>
-</p>
-
 ---
 
 ## 🎓 Formación
@@ -134,8 +129,8 @@ Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: ca
 ## 📈 Actividad
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=eduballesteros&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=10" alt="Estadísticas de GitHub"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduballesteros&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Lenguajes principales"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=eduballesteros&theme=tokyonight" height="180" alt="Estadísticas de GitHub"/>
+  <img src="https://streak-stats.demolab.com?user=eduballesteros&theme=tokyonight&hide_border=true&border_radius=10&locale=es" height="180" alt="Racha de contribuciones"/>
 </p>
 
 ## 📫 Contacto
