@@ -14,7 +14,7 @@
   "rol": "Desarrollador Backend Java",
   "ubicacion": "Sevilla, España",
   "ahora": "APIs e integración bancaria en NTT DATA (cliente: Unicaja)",
-  "construyendo": ["BarberMind · agente de IA + arquitectura hexagonal", "AWS DVA-C02 · Cloud Native"],
+  "construyendo": ["BarberMind · agente de IA + arquitectura hexagonal", "RhythmOS · planificación personal con Claude Code", "AWS DVA-C02 · Cloud Native"],
   "principios": ["SOLID", "Clean Architecture", "Hexagonal", "Clean Code"],
 }
 ```
@@ -57,7 +57,7 @@ timeline
 | Capa | Tecnologías |
 |---|---|
 | ☕ **Backend** | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
-| 🧠 **IA** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Azure](https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) Prompt Engineering |
+| 🧠 **IA** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Azure](https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white) Prompt Engineering |
 | 🗄️ **Datos y mensajería** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) |
 | 🚀 **DevOps y cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 | 🎨 **Frontend** | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
@@ -88,6 +88,35 @@ flowchart LR
 E-commerce full stack con microservicios y arquitectura limpia en capas. Seguridad con **Spring Security (OAuth2 + JWT)**, pagos reales con **PayPal SDK**, facturas PDF automatizadas y todo orquestado con Docker Compose.
 
 `Java 21` `Spring Boot 3` `MySQL` `Docker` `Spring Security`
+
+### 🤖 Hechos con Claude Code
+
+Proyectos personales que construyo en pareja con **Claude Code**: yo decido el producto, el diseño y la arquitectura, y reviso cada cambio; el agente escribe gran parte del código.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/eduballesteros/free-my-tv"><img src="https://raw.githubusercontent.com/eduballesteros/free-my-tv/main/.github/screens/home.webp" alt="Pantalla de inicio de Free My TV, edición Glass"/></a>
+
+**📺 [Free My TV · edición Glass](https://github.com/eduballesteros/free-my-tv)**
+
+Mi pantalla de inicio para Google TV, rediseñada al estilo iOS y tvOS. Sistema de diseño propio de cristal, YouTube sin anuncios ni Shorts con OAuth por código en el móvil, un fondo que sigue al sol y widgets de tiempo y Google Calendar. Sin root y con vuelta al inicio de fábrica.
+
+`Java` `Android TV` `OAuth 2.0` `YouTube Data API` `TMDB API`
+
+<sub>Fork personal de <a href="https://github.com/simbasjungles/free-my-tv">simbasjungles/free-my-tv</a> (MIT).</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://rhythmos.eduballesteros.es"><img src="https://rhythmos.eduballesteros.es/screens/hoy.webp" alt="La pantalla Hoy de RhythmOS"/></a>
+
+**🗓️ [RhythmOS](https://rhythmos.eduballesteros.es)** · [probar la demo →](https://rhythmos.eduballesteros.es)
+
+Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: cada noche eliges 3 prioridades y sellas el plan. Reglas de dominio testeadas y reforzadas en Postgres, sincronización con Google Tasks y Calendar sin SDKs (OAuth 2.0 + PKCE), Web Push con VAPID y PWA en producción.
+
+`Java 21` `Spring Boot 4` `PostgreSQL` `React 19` `PWA` `Docker`
+</td>
+</tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/eduballesteros/barbermind"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eduballesteros&repo=barbermind&theme=tokyonight&hide_border=true" alt="BarberMind"/></a>
