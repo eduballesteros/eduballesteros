@@ -14,8 +14,18 @@
   "rol": "Desarrollador Backend Java",
   "ubicacion": "Sevilla, España",
   "ahora": "APIs e integración bancaria en NTT DATA (cliente: Unicaja)",
-  "construyendo": ["BarberMind · agente de IA + arquitectura hexagonal", "RhythmOS · planificación personal con Claude Code", "AWS DVA-C02 · Cloud Native"],
-  "principios": ["SOLID", "Clean Architecture", "Hexagonal", "Clean Code"],
+  "construyendo": [
+    "Extrude · de planos DWG/DXF a modelos 3D",
+    "RhythmOS · planificación personal",
+    "BarberMind · citas e IA"
+  ],
+  "principios": [
+    "SOLID",
+    "Clean Architecture",
+    "Hexagonal",
+    "Clean Code"
+  ],
+  "aprendiendo": "AWS Certified Developer – Associate · ruta práctica con Java"
 }
 ```
 
@@ -32,7 +42,7 @@ timeline
     title De DAW a integración bancaria
     2023 : Inicio DAW · Centro Educativo Altair
     2025 : Prácticas y Backend Junior · Odeon Multicines : Máster en IA Generativa · EBIS + EUNEIZ : Fin de DAW
-    2026 : Backend e Integración · NTT DATA (Unicaja) : AWS DVA-C02 en curso
+    2026 : Backend e Integración · NTT DATA (Unicaja) : Preparación AWS Developer Associate
 ```
 
 <details>
@@ -56,15 +66,25 @@ timeline
 
 | Capa | Tecnologías |
 |---|---|
-| ☕ **Backend** | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
+| ☕ **Backend** | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3_y_4-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
 | 🧠 **IA** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Azure](https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white) Prompt Engineering |
 | 🗄️ **Datos y mensajería** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) |
 | 🚀 **DevOps y cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| 🎨 **Frontend** | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| 🎨 **Frontend y 3D** | ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 
 ---
 
 ## 🔥 Proyectos
+
+### 🏙️ [Extrude](https://github.com/eduballesteros/extrude) · *en desarrollo*
+
+[![Extrude: de plano a modelo 3D](https://raw.githubusercontent.com/eduballesteros/extrude/main/docs/assets/cover.svg)](https://github.com/eduballesteros/extrude)
+
+De planos **DWG/DXF a modelos 3D glTF/GLB**. Pipeline en Python que interpreta capas, asigna alturas y reconstruye terreno, con informes trazables para revisar el resultado. El visor web permite explorar capas, medir distancias, estudiar el sol y exportar vistas para Blender.
+
+**El reto técnico:** transformar geometría CAD en modelos navegables, gestionar coordenadas y apoyo sobre terreno, y dividir modelos grandes en teselas para facilitar su visualización.
+
+`Python` `TypeScript` `Three.js` `glTF / GLB` `Blender`
 
 ### 💈 [Barber Mind](https://github.com/eduballesteros/barbermind) · *en desarrollo*
 
@@ -88,6 +108,14 @@ flowchart LR
 E-commerce full stack con microservicios y arquitectura limpia en capas. Seguridad con **Spring Security (OAuth2 + JWT)**, pagos reales con **PayPal SDK**, facturas PDF automatizadas y todo orquestado con Docker Compose.
 
 `Java 21` `Spring Boot 3` `MySQL` `Docker` `Spring Security`
+
+### ☁️ [AWS Developer Associate](https://github.com/eduballesteros/aws-developer-associate) · *aprendizaje en público*
+
+Mi ruta de preparación para **AWS Certified Developer – Associate**: 12 semanas de guías en español, ejercicios, preguntas explicadas y seguimiento del aprendizaje. La práctica gira alrededor de una **API de tareas en Java 21** con Lambda, API Gateway, DynamoDB y Cognito, además de una plantilla AWS SAM y pruebas locales.
+
+Los despliegues y las integraciones reales con AWS se validan durante los laboratorios.
+
+`Java 21` `AWS SDK v2` `AWS SAM` `Lambda` `DynamoDB` `JUnit`
 
 ### 🤖 Hechos con Claude Code
 
@@ -122,7 +150,7 @@ Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: ca
 
 ## 🎓 Formación
 
-- 🟠 **AWS Certified Developer – Associate (DVA-C02)** · en curso (2026) · S3, EC2, Lambda, IAM
+- 🟠 **Preparación para AWS Certified Developer – Associate** · en curso (2026) · [ruta de estudio y laboratorios](https://github.com/eduballesteros/aws-developer-associate)
 - 🤖 **Máster en Ingeniería y Desarrollo de Soluciones con IA Generativa** · EBIS + EUNEIZ (2025 – 2026)
 - 🎒 **Técnico Superior en Desarrollo de Aplicaciones Web** · Centro Educativo Altair (2023 – 2025)
 
