@@ -76,16 +76,6 @@ timeline
 
 ## 🔥 Proyectos
 
-### 🏙️ [Extrude](https://github.com/eduballesteros/extrude) · *en desarrollo*
-
-[![Extrude: de plano a modelo 3D](https://raw.githubusercontent.com/eduballesteros/extrude/main/docs/assets/cover.svg)](https://github.com/eduballesteros/extrude)
-
-De planos **DWG/DXF a modelos 3D glTF/GLB**. Pipeline en Python que interpreta capas, asigna alturas y reconstruye terreno, con informes trazables para revisar el resultado. El visor web permite explorar capas, medir distancias, estudiar el sol y exportar vistas para Blender.
-
-**El reto técnico:** transformar geometría CAD en modelos navegables, gestionar coordenadas y apoyo sobre terreno, y dividir modelos grandes en teselas para facilitar su visualización.
-
-`Python` `TypeScript` `Three.js` `glTF / GLB` `Blender`
-
 ### 💈 [Barber Mind](https://github.com/eduballesteros/barbermind) · *en desarrollo*
 
 Gestión de citas B2B potenciada por IA y mensajería asíncrona. El reto: alta concurrencia sin *double-booking* gracias a bloqueos distribuidos en Redis, y un agente con LangChain que realiza transacciones en base de datos en tiempo real.
@@ -120,6 +110,16 @@ Los despliegues y las integraciones reales con AWS se validan durante los labora
 ### 🤖 Hechos con Claude Code
 
 Proyectos personales que construyo en pareja con **Claude Code**: yo decido el producto, el diseño y la arquitectura, y reviso cada cambio; el agente escribe gran parte del código.
+
+#### 🏙️ [Extrude](https://github.com/eduballesteros/extrude) · *en desarrollo*
+
+[![Extrude: de plano a modelo 3D](https://raw.githubusercontent.com/eduballesteros/extrude/main/docs/assets/cover.svg)](https://github.com/eduballesteros/extrude)
+
+De planos **DWG/DXF a modelos 3D glTF/GLB**. Pipeline en Python que interpreta capas, asigna alturas y reconstruye terreno, con informes trazables para revisar el resultado. El visor web permite explorar capas, medir distancias, estudiar el sol y exportar vistas para Blender.
+
+**El reto técnico:** transformar geometría CAD en modelos navegables, gestionar coordenadas y apoyo sobre terreno, y dividir modelos grandes en teselas para facilitar su visualización.
+
+`Python` `TypeScript` `Three.js` `glTF / GLB` `Blender`
 
 <table>
 <tr>
