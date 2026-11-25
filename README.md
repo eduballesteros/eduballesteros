@@ -157,7 +157,7 @@ Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: ca
 ## 📈 Actividad
 
 <p align="center">
-  <img src="assets/activity-terminal.svg" width="100%" alt="Terminal Linux con mis estadísticas de GitHub, rachas y calendario de contribuciones, actualizada cada día"/>
+  <img src="assets/activity-terminal.svg" width="100%" alt="Terminal Linux blanca con mis estadísticas de GitHub y rachas de contribuciones, actualizada cada día"/>
 </p>
 
 ## 📫 Contacto

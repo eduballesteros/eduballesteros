@@ -45,54 +45,60 @@ function graphql(after) {
 export function render(profile, date) {
   const collection = profile.contributionsCollection;
   const calendar = collection.contributionCalendar;
-  const weeks = calendar.weeks;
   const firstDate = collection.startedAt.slice(0, 10);
-  const days = weeks.flatMap(week => week.contributionDays).filter(day => day.date >= firstDate && day.date <= date);
+  const days = calendar.weeks.flatMap(week => week.contributionDays).filter(day => day.date >= firstDate && day.date <= date);
   const { current, longest } = streaks(days, date);
-  const max = Math.max(1, ...days.map(day => day.contributionCount));
-  const colors = ['#202a38', '#174b43', '#207861', '#35ad80', '#79e2ad'];
-  const text = (x, y, content, fill = '#c9d1d9', size = 16, extra = '') => `<text x="${x}" y="${y}" fill="${fill}" font-size="${size}" ${extra}>${escape(content)}</text>`;
-  const prompt = (y, command) => text(28, y, 'edu@github', '#79e2ad') + text(128, y, ':', '#c9d1d9') + text(140, y, '~/activity', '#7dcfff') + text(245, y, '$', '#c9d1d9') + text(267, y, command);
-  const metric = (x, value, label) => text(x, 140, format(value), '#f0f6fc', 34, 'font-weight="700"') + text(x, 168, label, '#9ba9bc', 14);
-  const cells = weeks.map((week, col) => week.contributionDays.filter(day => day.date >= firstDate && day.date <= date).map(day => {
-    const level = day.contributionCount === 0 ? 0 : Math.min(4, Math.ceil(day.contributionCount / max * 4));
-    return `<rect x="${80 + col * 14}" y="${287 + day.weekday * 14}" width="10" height="10" rx="2" fill="${colors[level]}"><title>${escape(day.date)}: ${day.contributionCount} contribuciones</title></rect>`;
-  }).join('')).join('');
-  const months = weeks.map((week, col) => {
-    const day = week.contributionDays.find(day => day.date.slice(-2) === '01');
-    if (!day || col > weeks.length - 3) return '';
-    return text(80 + col * 14, 274, new Intl.DateTimeFormat('es', { month: 'short', timeZone: 'UTC' }).format(new Date(day.date)), '#9ba9bc', 12);
-  }).join('');
+  const ink = '#2e3436', green = '#386b08', blue = '#245c91', orange = '#a45400';
+  const text = (x, y, value, color = ink, extra = '') => `<text x="${x}" y="${y}" fill="${color}" xml:space="preserve" ${extra}>${escape(value)}</text>`;
+  const prompt = (x, y, command = '') => `<text x="${x}" y="${y}" xml:space="preserve"><tspan fill="${green}" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="${blue}" font-weight="700">~/github</tspan><tspan>$ ${escape(command)}</tspan></text>`;
+  const field = (x, y, label, value) => `<text x="${x}" y="${y}" xml:space="preserve"><tspan fill="${orange}" font-weight="700">${escape(label)}</tspan><tspan>: ${escape(value)}</tspan></text>`;
   const label = `${username}: ${format(calendar.totalContributions)} contribuciones en los últimos 12 meses, racha actual de ${current} días y mejor racha del periodo de ${longest} días. ${profile.repositoryCount} repositorios públicos originales y ${profile.stars} estrellas.`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="496" viewBox="0 0 900 496" role="img" aria-labelledby="title description">
-<title id="title">Terminal de actividad de ${username}</title>
+  const tux = ['    .--.', '   |o_o |', '   |:_/ |', '  //   \\ \\', ' (|     | )', "/'\\_   _/`\\", '\\___)=(___/'];
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+<title id="title">Terminal Linux de actividad de ${username}</title>
 <desc id="description">${escape(label)} Actualizado el ${date}, UTC.</desc>
-<defs><clipPath id="window"><rect x=".5" y=".5" width="899" height="495" rx="12"/></clipPath></defs>
-<style>text{font-family:'DejaVu Sans Mono','Liberation Mono',Consolas,monospace}.cursor{animation:blink 1.2s step-end infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
-<g clip-path="url(#window)">
-<rect width="900" height="496" fill="#0d1117"/>
-<rect width="900" height="38" fill="#21262d"/>
-<path d="M17 14h14m-14 5h14m-14 5h14" stroke="#9ba9bc" stroke-width="1.5"/>
-${text(450, 24, 'edu@github: ~/activity', '#c9d1d9', 13, 'text-anchor="middle"')}
-<path d="M805 20h10m28-5h9v9h-9m25-9 9 9m0-9-9 9" stroke="#9ba9bc" fill="none" stroke-width="1.3"/>
-${prompt(79, 'gh stats --last-year')}
-${metric(28, calendar.totalContributions, 'CONTRIBUCIONES · 12 MESES')}
-${metric(338, current, 'RACHA ACTUAL · DÍAS')}
-${metric(638, longest, 'MEJOR RACHA · 12 MESES')}
-${text(28, 204, `repos públicos  ${format(profile.repositoryCount)}    estrellas  ${format(profile.stars)}    PRs · 12 meses  ${format(collection.totalPullRequestContributions)}`, '#9ba9bc', 15)}
-<path d="M28 225h844" stroke="#21262d"/>
-${prompt(252, 'gh contributions --graph')}
-${months}
-${text(28, 312, 'lun', '#9ba9bc', 12)}${text(28, 340, 'mié', '#9ba9bc', 12)}${text(28, 368, 'vie', '#9ba9bc', 12)}
-${cells}
-${text(80, 411, `${days[0].date} → ${date} · calendario de GitHub · UTC`, '#9ba9bc', 12)}
-${text(708, 411, '−', '#9ba9bc', 13)}${colors.map((color, i) => `<rect x="${727 + i * 16}" y="401" width="10" height="10" rx="2" fill="${color}"/>`).join('')}${text(815, 411, '+', '#9ba9bc', 13)}
-<path d="M28 432h844" stroke="#21262d"/>
-${text(28, 454, `# actualizado ${date} · GitHub Actions · cada día`, '#9ba9bc', 12)}
-${prompt(481, '')}<rect class="cursor" x="267" y="467" width="9" height="17" fill="#79e2ad"/>
-</g><rect x=".5" y=".5" width="899" height="495" rx="12" fill="none" stroke="#30363d"/>
+<defs><clipPath id="win"><rect width="1200" height="360" rx="12"/></clipPath></defs>
+<style>.cursor{animation:blink 1.1s step-end infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
+<g clip-path="url(#win)">
+<rect width="1200" height="360" fill="#ffffff"/>
+<rect width="1200" height="34" fill="#f1f1f1"/>
+<path d="M0 34.5h1200" stroke="#d3d7cf"/>
+<g stroke="#555753" stroke-width="1.6" stroke-linecap="round"><path d="M16 12h14m-14 5h14m-14 5h14"/></g>
+<text x="600" y="22" text-anchor="middle" font-family="'Ubuntu','Cantarell','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#2e3436">edu@sevilla: ~/github</text>
+<circle cx="1120" cy="17" r="10" fill="#e2e2e2"/><path d="M1115 21h10" stroke="#555753" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="1148" cy="17" r="10" fill="#e2e2e2"/><rect x="1143.5" y="12.5" width="9" height="9" rx="1" fill="none" stroke="#555753" stroke-width="1.5"/>
+<circle cx="1176" cy="17" r="10" fill="#e95420"/><path d="m1172 13 8 8m0-8-8 8" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M640.5 35v303" stroke="#c8d4be"/>
+<g font-family="Menlo,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace" font-size="14" fill="${ink}">
+${prompt(28, 62, 'gh stats --last-year')}
+${tux.map((line, i) => text(28, 104 + i * 21, line, orange, 'font-weight="700"')).join('')}
+${text(190, 104, username, green, 'font-weight="700"')}
+${text(190, 125, '--------------')}
+${field(190, 146, 'Contribuciones', format(calendar.totalContributions))}
+${field(190, 167, 'Pull requests', format(collection.totalPullRequestContributions))}
+${field(190, 188, 'Repos públicos', format(profile.repositoryCount))}
+${field(190, 209, 'Estrellas', format(profile.stars))}
+${field(190, 251, 'Periodo', 'últimos 12 meses')}
+${field(190, 272, 'Fuente', 'GitHub API')}
+${prompt(28, 314)}<rect class="cursor" x="213" y="301" width="8" height="16" fill="${ink}"/>
+${prompt(664, 62, 'gh streak --last-year')}
+${text(664, 104, 'RACHAS DE CONTRIBUCIONES', green, 'font-weight="700"')}
+${text(664, 125, '-----------------------')}
+${field(664, 146, 'Actual', `${current} ${current === 1 ? 'día' : 'días'}`)}
+${field(664, 167, 'Mejor del periodo', `${longest} ${longest === 1 ? 'día' : 'días'}`)}
+${field(664, 209, 'Desde', days[0].date)}
+${field(664, 230, 'Hasta', date)}
+${text(664, 272, '# actualización automática diaria', '#666b68')}
+${prompt(664, 314)}<rect class="cursor" x="849" y="301" width="8" height="16" fill="${ink}"/>
+</g>
+<rect y="338" width="1200" height="22" fill="#e6eddc"/>
+<g font-family="Menlo,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace" font-size="12" fill="#344326">
+${text(12, 353, '[edu] 0:stats*  1:streaks-', '#344326')}
+${text(1188, 353, `"sevilla" · ${date} UTC`, '#344326', 'text-anchor="end"')}
+</g></g><rect x="0.5" y="0.5" width="1199" height="359" rx="12" fill="none" stroke="#d3d7cf"/>
 </svg>\n`;
 }
+
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   let profile;
