@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-labelledby="title desc">
+<title id="title">Open Engine · Finanzas personales</title><desc id="desc">Proyecto en desarrollo. Backend Java y Spring Boot, persistencia en PostgreSQL e integraciones bancarias y de IA previstas.</desc>
+<defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#eceee9" stroke-width="1"/></pattern></defs>
+<rect x=".5" y=".5" width="899" height="269" rx="12" fill="#fafbf8" stroke="#d3d7cf"/>
+<path d="M580 1h307q12 0 12 12v244q0 12-12 12H580Z" fill="url(#grid)"/>
+<path d="M30 32v206" stroke="#e95420" stroke-width="4"/>
+<g font-family="'DejaVu Sans Mono','Liberation Mono',Consolas,monospace">
+<text x="56" y="56" fill="#386b08" font-size="16" font-weight="700">EN CONSTRUCCIÓN / FINTECH</text>
+<text x="54" y="116" fill="#2e3436" font-size="46" font-weight="700">Open Engine<tspan fill="#e95420">.</tspan></text>
+<text x="56" y="157" fill="#555753" font-size="20">Finanzas personales.</text>
+<text x="56" y="185" fill="#555753" font-size="20">Una base Java para conectar.</text>
+<text x="56" y="230" fill="#a45400" font-size="16" font-weight="700">JAVA 21 / SPRING BOOT / POSTGRESQL</text>
+<path d="M706 82v28m0 50v28" fill="none" stroke="#b3bcb0" stroke-width="2"/>
+<rect x="616" y="38" width="180" height="44" rx="8" fill="#fff" stroke="#d3d7cf"/><text x="706" y="66" text-anchor="middle" fill="#2e3436" font-size="20">Dominio</text>
+<rect x="616" y="110" width="180" height="50" rx="8" fill="#e95420"/><text x="706" y="141" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">Spring Boot</text>
+<rect x="616" y="188" width="180" height="44" rx="8" fill="#fff" stroke="#d3d7cf"/><text x="706" y="216" text-anchor="middle" fill="#245c91" font-size="20">PostgreSQL</text>
+</g></svg>

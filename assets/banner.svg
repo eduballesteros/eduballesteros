@@ -1,44 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="822" viewBox="0 0 900 822" role="img" aria-labelledby="title description">
-<title id="title">Edu Ballesteros · Terminal Linux</title><desc id="description">Desarrollador Backend Java en NTT DATA, Sevilla. Java, Spring Boot, IA generativa y cloud.</desc>
-<defs><clipPath id="win"><rect width="900" height="822" rx="12"/></clipPath></defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="342" viewBox="0 0 900 342" role="img" aria-labelledby="title desc">
+<title id="title">Edu Ballesteros · Backend Java</title><desc id="desc">Desarrollador backend en NTT DATA para Unicaja. Java, Spring Boot e integración bancaria. Sevilla, España.</desc>
+<defs><clipPath id="win"><rect width="900" height="342" rx="12"/></clipPath></defs>
 <style>.cursor{animation:blink 1.1s step-end infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
-<g clip-path="url(#win)"><rect width="900" height="822" fill="#fff"/>
-<rect width="900" height="40" fill="#f1f1f1"/><path d="M0 40h900" stroke="#d3d7cf"/>
+<g clip-path="url(#win)"><rect width="900" height="342" fill="#fff"/><rect width="900" height="40" fill="#f1f1f1"/><path d="M0 40h900" stroke="#d3d7cf"/>
 <path d="M16 14h14m-14 6h14m-14 6h14" stroke="#555753" stroke-width="1.6" stroke-linecap="round"/>
-<text x="450" y="26" text-anchor="middle" font-family="'Ubuntu','Cantarell','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#2e3436">edu@sevilla: ~/github</text>
-<circle cx="816" cy="20" r="11" fill="#e2e2e2"/><path d="M811 24h10" stroke="#555753" stroke-width="1.6"/>
-<circle cx="847" cy="20" r="11" fill="#e2e2e2"/><rect x="842.5" y="15.5" width="9" height="9" rx="1" fill="none" stroke="#555753" stroke-width="1.5"/>
-<circle cx="878" cy="20" r="11" fill="#e95420"/><path d="m874 16 8 8m0-8-8 8" stroke="#fff" stroke-width="1.6"/>
-<g font-family="Menlo,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace" font-size="20" fill="#2e3436"><text x="28" y="84" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ neofetch</tspan></text>
-<text x="28" y="126" fill="#a45400" xml:space="preserve" font-weight="700">    .--.</text>
-<text x="28" y="154" fill="#a45400" xml:space="preserve" font-weight="700">   |o_o |</text>
-<text x="28" y="182" fill="#a45400" xml:space="preserve" font-weight="700">   |:_/ |</text>
-<text x="28" y="210" fill="#a45400" xml:space="preserve" font-weight="700">  //   \ \</text>
-<text x="28" y="238" fill="#a45400" xml:space="preserve" font-weight="700"> (|     | )</text>
-<text x="28" y="266" fill="#a45400" xml:space="preserve" font-weight="700">/&apos;\_   _/`\</text>
-<text x="28" y="294" fill="#a45400" xml:space="preserve" font-weight="700">\___)=(___/</text>
-<text x="220" y="126" fill="#386b08" xml:space="preserve" font-weight="700">Edu Ballesteros</text>
-<text x="220" y="154" fill="#2e3436" xml:space="preserve" >--------------------</text>
-<text x="220" y="182" xml:space="preserve"><tspan fill="#a45400" font-weight="700">OS</tspan><tspan>: Desarrollador Backend</tspan></text>
-<text x="220" y="210" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Host</tspan><tspan>: NTT DATA (Unicaja)</tspan></text>
-<text x="220" y="238" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Kernel</tspan><tspan>: Java 21 · Spring Boot</tspan></text>
-<text x="220" y="266" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Shell</tspan><tspan>: Spring Security · JPA · OpenAPI</tspan></text>
-<text x="220" y="294" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Packages</tspan><tspan>: Docker, Redis, RabbitMQ, Postgres</tspan></text>
-<text x="220" y="322" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Cloud</tspan><tspan>: AWS · Azure AI</tspan></text>
-<text x="220" y="350" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Studies</tspan><tspan>: Máster IA · EBIS + EUNEIZ</tspan></text>
-<text x="28" y="402" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ git log --oneline --graph</tspan></text>
-<text x="28" y="438" fill="#2e3436" xml:space="preserve" >*  NTT DATA · Unicaja (2026)</text>
-<text x="28" y="466" fill="#2e3436" xml:space="preserve" >*  AWS Developer Associate · en curso (2026)</text>
-<text x="28" y="494" fill="#2e3436" xml:space="preserve" >*  Máster IA Generativa · EBIS + EUNEIZ (2025)</text>
-<text x="28" y="522" fill="#2e3436" xml:space="preserve" >*  Backend Junior · Odeon Multicines (2025)</text>
-<text x="28" y="550" fill="#2e3436" xml:space="preserve" >*  Técnico Superior DAW · Altair (2023)</text>
-<text x="28" y="602" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ docker compose ps</tspan></text>
-<text x="28" y="638" fill="#2e3436" xml:space="preserve" font-weight="700">NAME         STATUS       PORTS</text>
-<text x="28" y="666" fill="#386b08" xml:space="preserve" >api          running      :8080</text>
-<text x="28" y="694" fill="#386b08" xml:space="preserve" >redis        running      :6379</text>
-<text x="28" y="722" fill="#386b08" xml:space="preserve" >rabbitmq     running      :5672</text>
-<text x="28" y="770" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ </tspan></text>
-<rect class="cursor" x="292" y="752" width="11" height="23" fill="#2e3436"/></g>
-<rect y="792" width="900" height="30" fill="#e6eddc"/>
-<text x="16" y="812" font-family="Menlo,'DejaVu Sans Mono',monospace" font-size="16" fill="#344326">[edu] 0:zsh*  1:docker-  2:nvim · Sevilla</text>
-</g><rect x=".5" y=".5" width="899" height="821" rx="12" fill="none" stroke="#d3d7cf"/></svg>
+<text x="450" y="26" text-anchor="middle" font-family="'Ubuntu','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#2e3436">edu@sevilla: ~/about</text>
+<circle cx="816" cy="20" r="11" fill="#e2e2e2"/><path d="M811 24h10" stroke="#555753" stroke-width="1.6"/><circle cx="847" cy="20" r="11" fill="#e2e2e2"/><rect x="842.5" y="15.5" width="9" height="9" rx="1" fill="none" stroke="#555753" stroke-width="1.5"/><circle cx="878" cy="20" r="11" fill="#e95420"/><path d="m874 16 8 8m0-8-8 8" stroke="#fff" stroke-width="1.6"/>
+<g font-family="'DejaVu Sans Mono','Liberation Mono',Consolas,monospace" font-size="20" fill="#2e3436">
+<text x="28" y="84"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/about</tspan><tspan>$ whoami</tspan></text>
+<text x="28" y="138" font-size="38" font-weight="700">Edu Ballesteros<tspan fill="#e95420">.</tspan></text>
+<text x="28" y="178" font-size="23" font-weight="700" fill="#a45400">Backend Java · APIs · IA aplicada</text>
+<text x="28" y="216">NTT DATA / Unicaja · Integración bancaria</text>
+<text x="28" y="250" fill="#555753">Sevilla, España · Java &amp; Spring Boot</text>
+<text x="28" y="290"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/about</tspan><tspan>$ </tspan></text><rect class="cursor" x="280" y="272" width="11" height="23" fill="#2e3436"/>
+</g><rect y="312" width="900" height="30" fill="#e6eddc"/><text x="16" y="332" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" fill="#344326">[edu] 0:about*  1:projects-  2:learning</text></g><rect x=".5" y=".5" width="899" height="341" rx="12" fill="none" stroke="#d3d7cf"/>
+</svg>

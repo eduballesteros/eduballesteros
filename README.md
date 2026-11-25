@@ -1,167 +1,142 @@
 <p align="center">
-  <img src="assets/banner.svg?v=large-type-3" alt="Edu Ballesteros - Backend Java, Spring Boot, IA Generativa" width="100%"/>
+  <img src="assets/banner.svg?v=profile-refresh-4" width="100%" alt="Edu Ballesteros. Desarrollador Backend Java en Sevilla. APIs, integración bancaria e inteligencia artificial aplicada."/>
 </p>
 
 <p align="center">
-  <a href="https://www.eduballesteros.es"><img src="https://img.shields.io/badge/Portfolio-eduballesteros.es-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=0b0f19&labelColor=0b0f19" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/eduballesteross/"><img src="https://img.shields.io/badge/LinkedIn-eduballesteross-818cf8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0f19" alt="LinkedIn"/></a>
-  <a href="https://www.eduballesteros.es/cv-eduardo-ballesteros.pdf"><img src="https://img.shields.io/badge/Descargar-CV-e879f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0b0f19" alt="CV"/></a>
+  <b>Java & Spring Boot</b> &nbsp; / &nbsp; Integración bancaria &nbsp; / &nbsp; IA aplicada
 </p>
 
-```json
-{
-  "nombre": "Eduardo Ballesteros Pérez",
-  "rol": "Desarrollador Backend Java",
-  "ubicacion": "Sevilla, España",
-  "ahora": "APIs e integración bancaria en NTT DATA (cliente: Unicaja)",
-  "construyendo": [
-    "Extrude · de planos DWG/DXF a modelos 3D",
-    "RhythmOS · planificación personal",
-    "BarberMind · citas e IA"
-  ],
-  "principios": [
-    "SOLID",
-    "Clean Architecture",
-    "Hexagonal",
-    "Clean Code"
-  ],
-  "aprendiendo": "AWS Certified Developer – Associate · ruta práctica con Java"
-}
-```
+<p align="center">
+  <a href="https://www.eduballesteros.es"><img src="https://img.shields.io/badge/WEB-eduballesteros.es-e95420?style=for-the-badge&labelColor=2e3436" alt="Visitar mi portfolio"/></a>
+  <a href="https://www.linkedin.com/in/eduballesteross/"><img src="https://img.shields.io/badge/LINKEDIN-Hablemos-245c91?style=for-the-badge&labelColor=2e3436" alt="Contactar en LinkedIn"/></a>
+  <a href="https://www.eduballesteros.es/cv-eduardo-ballesteros.pdf"><img src="https://img.shields.io/badge/CV-Descargar-386b08?style=for-the-badge&labelColor=2e3436" alt="Descargar mi currículum en PDF"/></a>
+</p>
+
+<p align="center">
+  <a href="#perfil">Perfil</a> &nbsp; · &nbsp;
+  <a href="#proyectos">Proyectos</a> &nbsp; · &nbsp;
+  <a href="#stack">Stack</a> &nbsp; · &nbsp;
+  <a href="#trayectoria">Trayectoria</a> &nbsp; · &nbsp;
+  <a href="#actividad">Actividad</a>
+</p>
 
 ---
 
-## ⚡ Sobre mí
+## Perfil
 
-Backend developer centrado en **Java y Spring Boot**. Resuelvo problemas complejos con **arquitectura hexagonal y patrones de integración**, en un entorno bancario donde la resiliencia no es opcional. Lo combino con **IA generativa** (máster EBIS + EUNEIZ) y **cloud**, rumbo a **AWS Certified Developer – Associate**.
+Soy **Eduardo Ballesteros Pérez**, desarrollador backend en Sevilla. Trabajo con **Java y Spring Boot**, diseño APIs y conecto sistemas. En **NTT DATA**, para el cliente **Unicaja**, mi día a día gira alrededor de la integración bancaria, los contratos de las APIs y la resiliencia.
 
-## 🛤️ Trayectoria
+Fuera del trabajo construyo productos propios: finanzas personales, herramientas para planos y 3D, y aplicaciones que uso a diario. Me interesa entender el dominio, mantener claras las responsabilidades y poder explicar las decisiones detrás del código.
 
-```mermaid
-timeline
-    title De DAW a integración bancaria
-    2023 : Inicio DAW · Centro Educativo Altair
-    2025 : Prácticas y Backend Junior · Odeon Multicines : Máster en IA Generativa · EBIS + EUNEIZ : Fin de DAW
-    2026 : Backend e Integración · NTT DATA (Unicaja) : Preparación AWS Developer Associate
-```
+> **Ahora:** Open Engine y Extrude. **Aprendiendo:** AWS Developer Associate. **Mi forma de trabajar:** arquitectura limpia, pruebas y cambios pequeños que se puedan revisar.
 
-<details>
-<summary><b>💼 Detalle de experiencia</b></summary>
+## Proyectos
 
-<br/>
+### Open Engine
 
-| Periodo | Puesto | Empresa |
-|---|---|---|
-| Abr 2026 – Actualidad | Desarrollador Backend e Integración de Sistemas | **NTT DATA** (cliente: Unicaja) |
-| Jul 2025 – Sep 2025 | Desarrollador Backend Junior | Odeon Multicines |
-| Abr 2025 – Jul 2025 | Desarrollador Web (prácticas) | Odeon Multicines |
+<img src="assets/open-engine.svg?v=profile-refresh-4" width="100%" alt="Open Engine. Finanzas personales con una base backend en Java y Spring Boot. Proyecto en desarrollo."/>
 
-**Hoy:** diseño y gobierno de APIs REST con **IBM API Connect** y **App Connect Enterprise (ACE)**, microservicios con **Spring Boot**, pruebas de contrato y validación de endpoints con Postman.
+**Finanzas personales, desde el backend.** Mi proyecto para trabajar con cuentas, movimientos y análisis financiero sobre una base Java. Organizado por funcionalidades, con persistencia en PostgreSQL, migraciones y pruebas de integración.
 
-</details>
+La base backend está en marcha. Las conexiones bancarias con **Enable Banking** y el asistente con **Spring AI y Anthropic** están previstos en la evolución del proyecto.
+
+`Java 21` `Spring Boot 4` `PostgreSQL` `Flyway` `Spring Security` `Testcontainers` `Docker`
+
+<sub>En desarrollo · Repositorio privado · Nombre del repositorio: <code>openfinance-engine</code></sub>
 
 ---
 
-## 🧰 Stack
+### [Extrude](https://github.com/eduballesteros/extrude)
 
-| Capa | Tecnologías |
-|---|---|
-| ☕ **Backend** | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3_y_4-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
-| 🧠 **IA** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Azure](https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white) Prompt Engineering |
-| 🗄️ **Datos y mensajería** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) |
-| 🚀 **DevOps y cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| 🎨 **Frontend y 3D** | ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+[![Extrude: de planos CAD a modelos 3D](https://raw.githubusercontent.com/eduballesteros/extrude/main/docs/assets/cover.svg)](https://github.com/eduballesteros/extrude)
 
----
+**Del plano al modelo navegable.** Pipeline que transforma planos **DWG/DXF** en modelos **glTF/GLB**: interpreta capas, asigna alturas y reconstruye terreno. El visor permite explorar capas, medir distancias, estudiar el sol y exportar vistas para Blender.
 
-## 🔥 Proyectos
-
-### 💈 [Barber Mind](https://github.com/eduballesteros/barbermind) · *en desarrollo*
-
-Gestión de citas B2B potenciada por IA y mensajería asíncrona. El reto: alta concurrencia sin *double-booking* gracias a bloqueos distribuidos en Redis, y un agente con LangChain que realiza transacciones en base de datos en tiempo real.
-
-```mermaid
-flowchart LR
-    MCP["Servidor MCP<br/>(Model Context Protocol)"] --> API["Spring Boot<br/>puerto de entrada"]
-    subgraph HEX["Hexágono"]
-        API --> UC["Casos de uso"]
-        UC --> DOM["Dominio<br/>Citas · Barberos"]
-    end
-    UC --> DB[("PostgreSQL")]
-    MCP -.->|"tools / resources"| AI["Agente IA"]
-```
-
-`Java` `Spring Boot` `PostgreSQL` `Redis` `RabbitMQ` `Docker` `Angular`
-
-### 🌿 [Terra Nostra](https://github.com/eduballesteros/terra-nostra)
-
-E-commerce full stack con microservicios y arquitectura limpia en capas. Seguridad con **Spring Security (OAuth2 + JWT)**, pagos reales con **PayPal SDK**, facturas PDF automatizadas y todo orquestado con Docker Compose.
-
-`Java 21` `Spring Boot 3` `MySQL` `Docker` `Spring Security`
-
-### ☁️ [AWS Developer Associate](https://github.com/eduballesteros/aws-developer-associate) · *aprendizaje en público*
-
-Mi ruta de preparación para **AWS Certified Developer – Associate**: 12 semanas de guías en español, ejercicios, preguntas explicadas y seguimiento del aprendizaje. La práctica gira alrededor de una **API de tareas en Java 21** con Lambda, API Gateway, DynamoDB y Cognito, además de una plantilla AWS SAM y pruebas locales.
-
-Los despliegues y las integraciones reales con AWS se validan durante los laboratorios.
-
-`Java 21` `AWS SDK v2` `AWS SAM` `Lambda` `DynamoDB` `JUnit`
-
-### 🤖 Hechos con Claude Code
-
-Proyectos personales que construyo en pareja con **Claude Code**: yo decido el producto, el diseño y la arquitectura, y reviso cada cambio; el agente escribe gran parte del código.
-
-#### 🏙️ [Extrude](https://github.com/eduballesteros/extrude) · *en desarrollo*
-
-[![Extrude: de plano a modelo 3D](https://raw.githubusercontent.com/eduballesteros/extrude/main/docs/assets/cover.svg)](https://github.com/eduballesteros/extrude)
-
-De planos **DWG/DXF a modelos 3D glTF/GLB**. Pipeline en Python que interpreta capas, asigna alturas y reconstruye terreno, con informes trazables para revisar el resultado. El visor web permite explorar capas, medir distancias, estudiar el sol y exportar vistas para Blender.
-
-**El reto técnico:** transformar geometría CAD en modelos navegables, gestionar coordenadas y apoyo sobre terreno, y dividir modelos grandes en teselas para facilitar su visualización.
+El reto está en interpretar la geometría CAD y producir resultados trazables que se puedan revisar, incluso al dividir modelos grandes en teselas.
 
 `Python` `TypeScript` `Three.js` `glTF / GLB` `Blender`
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/eduballesteros/free-my-tv"><img src="https://raw.githubusercontent.com/eduballesteros/free-my-tv/main/.github/screens/home.webp" alt="Pantalla de inicio de Free My TV, edición Glass"/></a>
-
-**📺 [Free My TV · edición Glass](https://github.com/eduballesteros/free-my-tv)**
-
-Mi pantalla de inicio para Google TV, rediseñada al estilo iOS y tvOS. Sistema de diseño propio de cristal, YouTube sin anuncios ni Shorts con OAuth por código en el móvil, un fondo que sigue al sol y widgets de tiempo y Google Calendar. Sin root y con vuelta al inicio de fábrica.
-
-`Java` `Android TV` `OAuth 2.0` `YouTube Data API` `TMDB API`
-
-<sub>Fork personal de <a href="https://github.com/simbasjungles/free-my-tv">simbasjungles/free-my-tv</a> (MIT).</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://rhythmos.eduballesteros.es"><img src="https://rhythmos.eduballesteros.es/screens/hoy.webp" alt="La pantalla Hoy de RhythmOS"/></a>
-
-**🗓️ [RhythmOS](https://rhythmos.eduballesteros.es)** · [probar la demo →](https://rhythmos.eduballesteros.es)
-
-Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: cada noche eliges 3 prioridades y sellas el plan. Reglas de dominio testeadas y reforzadas en Postgres, sincronización con Google Tasks y Calendar sin SDKs (OAuth 2.0 + PKCE), Web Push con VAPID y PWA en producción.
-
-`Java 21` `Spring Boot 4` `PostgreSQL` `React 19` `PWA` `Docker`
-</td>
-</tr>
-</table>
+[Explorar el repositorio →](https://github.com/eduballesteros/extrude)
 
 ---
 
-## 🎓 Formación
+### [RhythmOS](https://rhythmos.eduballesteros.es)
 
-- 🟠 **Preparación para AWS Certified Developer – Associate** · en curso (2026) · [ruta de estudio y laboratorios](https://github.com/eduballesteros/aws-developer-associate)
-- 🤖 **Máster en Ingeniería y Desarrollo de Soluciones con IA Generativa** · EBIS + EUNEIZ (2025 – 2026)
-- 🎒 **Técnico Superior en Desarrollo de Aplicaciones Web** · Centro Educativo Altair (2023 – 2025)
+**Planifica de noche. Ejecuta de día.** Aplicación personal basada en *Los 7 hábitos*: cada noche elijo tres prioridades y sello el plan. Incluye sincronización con Google Tasks y Calendar mediante OAuth, Web Push y una PWA en producción.
 
-## 📈 Actividad
+`Java 21` `Spring Boot 4` `PostgreSQL` `React 19` `PWA` `Docker`
+
+[Probar la demo →](https://rhythmos.eduballesteros.es) &nbsp; · &nbsp; [Ver código →](https://github.com/eduballesteros/rhythmos)
+
+### [Free My TV · Glass](https://github.com/eduballesteros/free-my-tv)
+
+**Mi Google TV, a mi manera.** Pantalla de inicio con una interfaz de cristal inspirada en iOS y tvOS. YouTube sin anuncios ni Shorts, inicio de sesión por código, fondo que sigue al sol y widgets de tiempo y calendario. Sin root.
+
+`Java` `Android TV` `OAuth 2.0` `YouTube Data API` `TMDB API`
+
+[Explorar el repositorio →](https://github.com/eduballesteros/free-my-tv) &nbsp; · &nbsp; <sub>Fork de [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv), licencia MIT.</sub>
+
+<details>
+<summary><b>Más proyectos: e-commerce y aprendizaje en público</b></summary>
+
+#### [Terra Nostra](https://github.com/eduballesteros/terra-nostra)
+
+E-commerce full stack con microservicios, seguridad con Spring Security y OAuth2/JWT, pagos con PayPal, facturas PDF y entorno Docker Compose.
+
+`Java 21` `Spring Boot 3` `MySQL` `Spring Security` `Docker`
+
+#### [AWS Developer Associate](https://github.com/eduballesteros/aws-developer-associate)
+
+Ruta práctica de preparación para AWS Certified Developer – Associate: guías en español, ejercicios y una API de tareas en Java con Lambda, API Gateway, DynamoDB y Cognito. Los despliegues y las integraciones reales se validan durante los laboratorios.
+
+`Java 21` `AWS SDK v2` `AWS SAM` `Lambda` `DynamoDB` `JUnit`
+
+</details>
+
+<details>
+<summary><b>Cómo uso la IA al construir software</b></summary>
+
+En proyectos personales como Extrude, RhythmOS y Free My TV trabajo con **Claude Code**: yo decido el producto, el diseño y la arquitectura, y reviso los cambios; el agente escribe gran parte del código. Me interesa que el resultado se pueda entender, comprobar y mantener.
+
+</details>
+
+## Stack
+
+| Área | Herramientas con las que trabajo |
+| :--- | :--- |
+| **Backend** | Java 21 · Spring Boot 3/4 · Spring Security · Python · FastAPI |
+| **Integración** | APIs REST · IBM API Connect · App Connect Enterprise · OAuth2 · OpenAPI |
+| **Datos** | PostgreSQL · MySQL · SQL Server · Redis · RabbitMQ |
+| **IA aplicada** | Spring AI · LangChain · Azure AI · Prompt engineering · Claude Code |
+| **Cloud y entrega** | AWS · Docker · Git · JUnit · Testcontainers |
+| **Frontend y 3D** | TypeScript · React · Angular · Vue · Three.js |
+
+## Trayectoria
+
+**2026 — NTT DATA · cliente Unicaja**
+
+Desarrollador Backend e Integración de Sistemas desde abril. Diseño y gobierno de APIs REST con IBM API Connect y ACE, microservicios con Spring Boot, pruebas de contrato y validación de endpoints.
+
+**2025 — Odeon Multicines**
+
+Prácticas de desarrollo web de abril a julio y Backend Junior de julio a septiembre.
+
+### Formación y siguiente paso
+
+- **AWS Certified Developer – Associate** — preparación en curso. [Ruta de estudio y laboratorios →](https://github.com/eduballesteros/aws-developer-associate)
+- **Máster en Ingeniería y Desarrollo de Soluciones con IA Generativa** — EBIS + EUNEIZ, 2025–2026.
+- **Técnico Superior en Desarrollo de Aplicaciones Web** — Centro Educativo Altair, 2023–2025.
+
+## Actividad
+
+<img src="assets/activity-terminal.svg?v=profile-refresh-4" width="100%" alt="Terminal Linux blanca con estadísticas reales de GitHub y rachas de contribuciones. Actualización diaria."/>
+
+---
 
 <p align="center">
-  <img src="assets/activity-terminal.svg?v=large-type-3" width="100%" alt="Terminal Linux blanca con mis estadísticas de GitHub y rachas de contribuciones, actualizada cada día"/>
+  <b>¿Hablamos de backend, APIs o de tu próximo proyecto?</b><br/><br/>
+  <a href="https://www.eduballesteros.es/#contacto">Contactar desde mi web</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/eduballesteross/">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="https://www.eduballesteros.es/cv-eduardo-ballesteros.pdf">Currículum</a><br/><br/>
+  <sub>Edu Ballesteros · Sevilla, España</sub>
 </p>
-
-## 📫 Contacto
-
-¿Un proyecto, una colaboración o charlar de tecnología? Escríbeme desde [eduballesteros.es](https://www.eduballesteros.es/#contacto) o por [LinkedIn](https://www.linkedin.com/in/eduballesteross/). Respondo en menos de 48 h.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,12&height=110&section=footer" width="100%" alt=""/>
