@@ -1,24 +1,32 @@
 // Builds assets/banner.svg, the macOS terminal at the top of the profile: `node scripts/build-banner.mjs`.
+// A real shell session: one font size, each command typed and then its output printed.
 import { writeFile } from 'node:fs/promises';
-import { colors as C, escape, line, raw, terminal } from './terminal.mjs';
+import { colors as C, line, terminal } from './terminal.mjs';
+
+const field = (label, value) => [{ text: `${label}:`.padEnd(11), color: C.faint }, { text: value }];
+const dirs = names => names.flatMap(name => [{ text: `${name}/`, color: C.path, bold: true }, { text: '   ' }]);
 
 export function renderBanner() {
+  const out = (y, parts) => at => line(y, parts, at);
   return terminal({
     title: {
       text: 'Edu Ballesteros · Backend Java',
       description: 'Desarrollador backend en NTT DATA para Unicaja. Java, Spring Boot e integración bancaria. Sevilla, España.',
-      bar: 'edu — whoami — zsh — 90×16',
+      bar: 'edu — zsh — 90×12',
     },
-    height: 330,
-    steps: [{
-      y: 60, command: 'whoami', finalY: 288,
-      output: [
-        at => raw(124, 'font-size="40" font-weight="700"', `${escape('Edu Ballesteros')}<tspan fill="${C.head}">.</tspan>`, at),
-        at => raw(166, `font-size="22" font-weight="700" fill="${C.head}"`, escape('Backend Java · APIs · IA aplicada'), at),
-        at => line(204, [{ text: 'NTT DATA / Unicaja · Integración bancaria' }], at),
-        at => line(236, [{ text: 'Sevilla, España · Java & Spring Boot', color: C.faint }], at),
-      ],
-    }],
+    height: 336,
+    steps: [
+      { y: 56, command: 'whoami', output: [out(84, [{ text: 'Edu Ballesteros', bold: true }])] },
+      {
+        y: 116, command: 'cat perfil.txt', output: [
+          out(144, field('Rol', 'Backend Java · APIs · IA aplicada')),
+          out(172, field('Empresa', 'NTT DATA / Unicaja · Integración bancaria')),
+          out(200, field('Stack', 'Java 21 · Spring Boot · PostgreSQL')),
+          out(228, field('Ubicación', 'Sevilla, España')),
+        ],
+      },
+      { y: 260, command: 'ls proyectos/', output: [out(288, dirs(['open-engine', 'extrude', 'rhythmos', 'free-my-tv']))], finalY: 318 },
+    ],
   });
 }
 

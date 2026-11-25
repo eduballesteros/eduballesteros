@@ -37,7 +37,8 @@ export function terminal({ title, height, user = 'edu@macbook', dir = '~', steps
   for (const step of steps) {
     const { y, command } = step;
     // Prompt appears, then the command is revealed one character at a time behind a clip.
-    body.push(prompt(y, t > 0.5 ? t : 0));
+    const shown = t > 0.5 ? t : 0; // the first prompt is there from the start
+    body.push(prompt(y, shown));
     const start = t + 0.45, n = command.length, end = start + n * TYPE, total = end + 0.35;
     const times = [0, start / total], widths = [0, 0], xs = [cmdX, cmdX];
     for (let i = 1; i <= n; i++) { times.push((start + i * TYPE) / total); widths.push(i * CH); xs.push(cmdX + i * CH); }
@@ -47,7 +48,7 @@ export function terminal({ title, height, user = 'edu@macbook', dir = '~', steps
     defs.push(`<clipPath id="${clip}"><rect x="${cmdX}" y="${y - SIZE}" width="${n * CH + 4}" height="${SIZE + 8}"><animate attributeName="width" values="${widths.map(w => w.toFixed(1)).join(';')}" keyTimes="${kt}" calcMode="discrete" dur="${s(total)}" fill="freeze"/></rect></clipPath>`);
     body.push(`<g clip-path="url(#${clip})"><text x="${cmdX}" y="${y}" xml:space="preserve" ${fixed(command)}>${escape(command)}</text></g>`);
     // The typing cursor walks with the text and disappears when the command runs.
-    body.push(`<rect x="${cmdX + n * CH}" y="${y - SIZE + 3}" width="${CH}" height="${SIZE + 3}" fill="${C.cursor}" opacity="0"><animate attributeName="x" values="${xs.map(v => v.toFixed(1)).join(';')}" keyTimes="${kt}" calcMode="discrete" dur="${s(total)}" fill="freeze"/><animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="discrete" dur="${s(total)}" fill="freeze"/></rect>`);
+    body.push(`<rect x="${cmdX + n * CH}" y="${y - SIZE + 3}" width="${CH}" height="${SIZE + 3}" fill="${C.cursor}" opacity="0"><animate attributeName="x" values="${xs.map(v => v.toFixed(1)).join(';')}" keyTimes="${kt}" calcMode="discrete" dur="${s(total)}" fill="freeze"/><animate attributeName="opacity" ${shown ? `values="0;1;0" keyTimes="0;${(shown / total).toFixed(4)};1"` : 'values="1;0" keyTimes="0;1"'} calcMode="discrete" dur="${s(total)}" fill="freeze"/></rect>`);
     t = total;
     // Output arrives line by line, a little faster than typing.
     for (const out of step.output) body.push(out(t += 0.07));

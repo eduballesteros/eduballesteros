@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg?v=mac-1" width="100%" alt="Edu Ballesteros. Desarrollador Backend Java en Sevilla. APIs, integración bancaria e inteligencia artificial aplicada."/>
+  <img src="assets/banner.svg?v=mac-2" width="100%" alt="Edu Ballesteros. Desarrollador Backend Java en Sevilla. APIs, integración bancaria e inteligencia artificial aplicada."/>
 </p>
 
 <p align="center">
