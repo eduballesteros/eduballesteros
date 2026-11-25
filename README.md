@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Edu Ballesteros - Backend Java, Spring Boot, IA Generativa" width="100%"/>
+  <img src="assets/banner.svg?v=large-type-3" alt="Edu Ballesteros - Backend Java, Spring Boot, IA Generativa" width="100%"/>
 </p>
 
 <p align="center">
@@ -157,7 +157,7 @@ Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: ca
 ## 📈 Actividad
 
 <p align="center">
-  <img src="assets/activity-terminal.svg?v=white-terminal-2" width="100%" alt="Terminal Linux blanca con mis estadísticas de GitHub y rachas de contribuciones, actualizada cada día"/>
+  <img src="assets/activity-terminal.svg?v=large-type-3" width="100%" alt="Terminal Linux blanca con mis estadísticas de GitHub y rachas de contribuciones, actualizada cada día"/>
 </p>
 
 ## 📫 Contacto
