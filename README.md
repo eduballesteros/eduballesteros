@@ -32,17 +32,17 @@ Fuera del trabajo construyo productos propios: finanzas personales, herramientas
 
 ## Proyectos
 
-### Open Engine
+### [Open Engine](https://github.com/eduballesteros/openfinance-engine)
 
-<img src="assets/open-engine.svg?v=profile-refresh-4" width="100%" alt="Open Engine. Finanzas personales con una base backend en Java y Spring Boot. Proyecto en desarrollo."/>
+[![OpenFinance: tu dinero, en un solo sitio](assets/open-engine.svg?v=profile-refresh-5)](https://github.com/eduballesteros/openfinance-engine)
 
 **Finanzas personales, desde el backend.** Mi proyecto para trabajar con cuentas, movimientos y análisis financiero sobre una base Java. Organizado por funcionalidades, con persistencia en PostgreSQL, migraciones y pruebas de integración.
 
-La base backend está en marcha. Las conexiones bancarias con **Enable Banking** y el asistente con **Spring AI y Anthropic** están previstos en la evolución del proyecto.
+La base backend está en marcha y el frontend en Angular ya muestra el resumen con datos de ejemplo. Las conexiones bancarias con **Enable Banking** y el asistente con **Spring AI y Anthropic** están previstos en la evolución del proyecto.
 
-`Java 21` `Spring Boot 4` `PostgreSQL` `Flyway` `Spring Security` `Testcontainers` `Docker`
+`Java 21` `Spring Boot 4` `PostgreSQL` `Flyway` `Spring Security` `Testcontainers` `Angular` `Docker`
 
-<sub>En desarrollo · Repositorio privado · Nombre del repositorio: <code>openfinance-engine</code></sub>
+[Explorar el repositorio →](https://github.com/eduballesteros/openfinance-engine) &nbsp; · &nbsp; <sub>En desarrollo</sub>
 
 ---
 
@@ -62,11 +62,15 @@ El reto está en interpretar la geometría CAD y producir resultados trazables q
 
 ### [RhythmOS](https://rhythmos.eduballesteros.es)
 
+[![RhythmOS: planifica de noche, ejecuta de día](assets/rhythmos.svg?v=profile-refresh-5)](https://rhythmos.eduballesteros.es)
+
 **Planifica de noche. Ejecuta de día.** Aplicación personal basada en *Los 7 hábitos*: cada noche elijo tres prioridades y sello el plan. Incluye sincronización con Google Tasks y Calendar mediante OAuth, Web Push y una PWA en producción.
 
 `Java 21` `Spring Boot 4` `PostgreSQL` `React 19` `PWA` `Docker`
 
 [Probar la demo →](https://rhythmos.eduballesteros.es) &nbsp; · &nbsp; [Ver código →](https://github.com/eduballesteros/rhythmos)
+
+---
 
 ### [Free My TV · Glass](https://github.com/eduballesteros/free-my-tv)
 

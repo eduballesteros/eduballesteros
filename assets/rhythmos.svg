@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">RhythmOS: planifica de noche, ejecuta de día</title>
+  <desc id="desc">Cada noche eliges tres prioridades para mañana y sellas el plan.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#111417"/>
+      <stop offset=".42" stop-color="#1d2731"/>
+      <stop offset=".6" stop-color="#7a4a3c"/>
+      <stop offset=".72" stop-color="#e9c9a8"/>
+      <stop offset=".84" stop-color="#f8f5ef"/>
+    </linearGradient>
+    <linearGradient id="ic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c24a35"/><stop offset=".55" stop-color="#b03e2d"/><stop offset="1" stop-color="#9c3326"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f2d27a" stop-opacity=".55"/><stop offset="1" stop-color="#f2d27a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="400" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="url(#sky)"/>
+    <circle cx="487" cy="206" r="1.3" fill="#f6f0e2" fill-opacity="0.73"/><circle cx="503" cy="209" r="1.8" fill="#f6f0e2" fill-opacity="0.67"/><circle cx="543" cy="101" r="1.3" fill="#f6f0e2" fill-opacity="0.70"/><circle cx="467" cy="33" r="1.8" fill="#f6f0e2" fill-opacity="0.58"/><circle cx="610" cy="305" r="1.0" fill="#f6f0e2" fill-opacity="0.61"/><circle cx="611" cy="262" r="1.7" fill="#f6f0e2" fill-opacity="0.64"/><circle cx="604" cy="341" r="1.3" fill="#f6f0e2" fill-opacity="0.52"/><circle cx="556" cy="134" r="1.0" fill="#f6f0e2" fill-opacity="0.50"/><circle cx="620" cy="215" r="1.8" fill="#f6f0e2" fill-opacity="0.79"/><circle cx="602" cy="34" r="1.3" fill="#f6f0e2" fill-opacity="0.52"/><circle cx="600" cy="179" r="2.0" fill="#f6f0e2" fill-opacity="0.67"/><circle cx="621" cy="157" r="1.8" fill="#f6f0e2" fill-opacity="0.48"/><circle cx="529" cy="330" r="1.0" fill="#f6f0e2" fill-opacity="0.76"/><circle cx="658" cy="93" r="1.7" fill="#f6f0e2" fill-opacity="0.42"/><circle cx="586" cy="335" r="2.0" fill="#f6f0e2" fill-opacity="0.80"/><circle cx="507" cy="113" r="0.8" fill="#f6f0e2" fill-opacity="0.47"/><circle cx="69" cy="15" r="1.7" fill="#f6f0e2" fill-opacity="0.47"/><circle cx="494" cy="190" r="1.8" fill="#f6f0e2" fill-opacity="0.47"/><circle cx="585" cy="99" r="1.3" fill="#f6f0e2" fill-opacity="0.80"/><circle cx="140" cy="363" r="1.6" fill="#f6f0e2" fill-opacity="0.69"/>
+    <path d="M612 62a26 26 0 1 0 22 40 21 21 0 1 1-22-40Z" fill="#e3c062"/>
+    <circle cx="1146" cy="52" r="110" fill="url(#sun)"/>
+    <circle cx="1146" cy="52" r="34" fill="#e0c16a"/>
+  </g>
+  <g transform="translate(58 58) scale(.125)">
+    <rect width="512" height="512" rx="116" fill="url(#ic)"/>
+    <g fill="none" stroke-width="40" stroke-linecap="round">
+      <path d="M371.2 159.3A150 150 0 1 1 140.8 352.7" stroke="#f6f0e2"/>
+      <path d="M113.6 302.4A150 150 0 0 1 192.7 120.4" stroke="#e3c062"/>
+    </g>
+    <circle cx="300" cy="113" r="18" fill="#f2d27a"/>
+    <g fill="#f6f0e2"><circle cx="200" cy="268" r="20"/><circle cx="256" cy="244" r="24"/><circle cx="312" cy="220" r="28"/></g>
+  </g>
+  <text x="140" y="102" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#f6f0e2">RhythmOS</text>
+  <text x="58" y="196" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#f6f0e2">Planifica de noche.</text>
+  <text x="58" y="246" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#e3c062">Ejecuta de día.</text>
+  <text x="60" y="290" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#c9cdd1">3 prioridades cada noche · Google Tasks y Calendar · PWA</text>
+  <rect x="59" y="315" width="226" height="32" rx="16" fill="none" stroke="#e3c062" stroke-opacity=".75" stroke-width="1.5"/>
+  <text x="172" y="336" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#f6f0e2">SPRING BOOT + REACT 19</text>
+
+  <rect x="762" y="70" width="344" height="280" rx="18" fill="#1d2731" fill-opacity=".18" transform="translate(6 10)"/>
+  <rect x="762" y="70" width="344" height="280" rx="18" fill="#fff" stroke="#e8e1d3"/>
+  <text x="784" y="106" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#737b82">MAÑANA · 3 PRIORIDADES</text>
+  <text x="784" y="132" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8a6d1c">2 importantes y no urgentes</text>
+  <rect x="784" y="150" width="300" height="40" rx="10" fill="#fbf8f2" stroke="#e8e1d3"/>
+  <circle cx="806" cy="170" r="12" fill="#b03a2e"/>
+  <text x="806" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#fff">1</text>
+  <text x="828" y="175" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1d2731">Bloque de estudio AWS</text>
+  <text x="1072" y="175" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#737b82">07:30</text>
+  <rect x="784" y="200" width="300" height="40" rx="10" fill="#fbf8f2" stroke="#e8e1d3"/>
+  <circle cx="806" cy="220" r="12" fill="#b03a2e"/>
+  <text x="806" y="225" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#fff">2</text>
+  <text x="828" y="225" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1d2731">Entrenamiento</text>
+  <text x="1072" y="225" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#737b82">13:00</text>
+  <rect x="784" y="250" width="300" height="40" rx="10" fill="#fbf8f2" stroke="#e8e1d3"/>
+  <circle cx="806" cy="270" r="12" fill="#b03a2e"/>
+  <text x="806" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#fff">3</text>
+  <text x="828" y="275" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1d2731">Revisar la propuesta</text>
+  <text x="1072" y="275" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#737b82">17:00</text>
+  <g transform="rotate(-12 1068 328)">
+    <circle cx="1068" cy="328" r="36" fill="#b03a2e"/>
+    <circle cx="1068" cy="328" r="30" fill="none" stroke="#f6f0e2" stroke-opacity=".7" stroke-dasharray="3 3"/>
+    <text x="1068" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#f6f0e2">PLAN</text>
+    <text x="1068" y="339" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#f6f0e2">SELLADO</text>
+  </g>
+</svg>
