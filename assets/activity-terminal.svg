@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="398" viewBox="0 0 900 398" role="img" aria-labelledby="title description">
-<title id="title">Terminal Linux · Actividad de GitHub</title><desc id="description">eduballesteros: 376 contribuciones en los últimos 12 meses. Racha actual: 4 días. Mejor racha del periodo: 10 días.</desc>
+<title id="title">Terminal Linux · Actividad de GitHub</title><desc id="description">eduballesteros: 385 contribuciones en los últimos 12 meses. Racha actual: 4 días. Mejor racha del periodo: 10 días.</desc>
 <defs><clipPath id="win"><rect width="900" height="398" rx="12"/></clipPath></defs>
 <style>.cursor{animation:blink 1.1s step-end infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
 <g clip-path="url(#win)"><rect width="900" height="398" fill="#fff"/>
@@ -9,19 +9,18 @@
 <circle cx="816" cy="20" r="11" fill="#e2e2e2"/><path d="M811 24h10" stroke="#555753" stroke-width="1.6"/>
 <circle cx="847" cy="20" r="11" fill="#e2e2e2"/><rect x="842.5" y="15.5" width="9" height="9" rx="1" fill="none" stroke="#555753" stroke-width="1.5"/>
 <circle cx="878" cy="20" r="11" fill="#e95420"/><path d="m874 16 8 8m0-8-8 8" stroke="#fff" stroke-width="1.6"/>
-<g font-family="Menlo,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace" font-size="20" fill="#2e3436"><text x="28" y="84" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ gh stats --last-year</tspan></text>
-<text x="28" y="132" fill="#386b08" xml:space="preserve" font-weight="700">GITHUB · ÚLTIMOS 12 MESES</text>
-<text x="28" y="174" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Contribuciones</tspan><tspan>: 376</tspan></text>
-<text x="28" y="210" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Pull requests</tspan><tspan>: 16</tspan></text>
-<text x="28" y="246" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Repos públicos</tspan><tspan>: 8</tspan></text>
-<text x="28" y="282" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Estrellas</tspan><tspan>: 1</tspan></text>
-<text x="490" y="132" fill="#386b08" xml:space="preserve" font-weight="700">RACHAS DE CONTRIBUCIONES</text>
-<text x="490" y="174" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Actual</tspan><tspan>: 4 días</tspan></text>
-<text x="490" y="210" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Mejor</tspan><tspan>: 10 días</tspan></text>
-<text x="490" y="246" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Desde</tspan><tspan>: 2025-11-23</tspan></text>
-<text x="490" y="282" xml:space="preserve"><tspan fill="#a45400" font-weight="700">Hasta</tspan><tspan>: 2026-11-25</tspan></text>
-<text x="28" y="340" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ </tspan></text>
-<rect class="cursor" x="292" y="322" width="11" height="23" fill="#2e3436"/></g>
+<g font-family="'DejaVu Sans Mono','Liberation Mono',Consolas,ui-monospace,Menlo,monospace" font-size="20" fill="#2e3436"><text x="28" y="84" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ gh stats --last-year</tspan></text>
+<text x="28" y="132" xml:space="preserve" fill="#a45400" font-size="17" font-weight="700" letter-spacing="1">GITHUB · ÚLTIMOS 12 MESES</text><path d="M28 142h360" stroke="#d3d7cf"/>
+<text x="28" y="178" xml:space="preserve"><tspan fill="#555753">Contribuciones: </tspan><tspan font-weight="700">385</tspan></text>
+<text x="28" y="212" xml:space="preserve"><tspan fill="#555753">Pull requests:  </tspan><tspan font-weight="700">23</tspan></text>
+<text x="28" y="246" xml:space="preserve"><tspan fill="#555753">Repos públicos: </tspan><tspan font-weight="700">9</tspan></text>
+<text x="28" y="280" xml:space="preserve"><tspan fill="#555753">Estrellas:      </tspan><tspan font-weight="700">1</tspan></text>
+<text x="490" y="132" xml:space="preserve" fill="#a45400" font-size="17" font-weight="700" letter-spacing="1">RACHAS DE CONTRIBUCIONES</text><path d="M490 142h360" stroke="#d3d7cf"/>
+<text x="490" y="178" xml:space="preserve"><tspan fill="#555753">Actual: </tspan><tspan font-weight="700">4 días</tspan></text>
+<text x="490" y="212" xml:space="preserve"><tspan fill="#555753">Mejor:  </tspan><tspan font-weight="700">10 días</tspan></text>
+<text x="490" y="246" xml:space="preserve"><tspan fill="#555753">Desde:  </tspan><tspan font-weight="700">2025-11-23</tspan></text>
+<text x="490" y="280" xml:space="preserve"><tspan fill="#555753">Hasta:  </tspan><tspan font-weight="700">2026-11-25</tspan></text>
+<text x="28" y="336" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ </tspan><tspan class="cursor">█</tspan></text></g>
 <rect y="368" width="900" height="30" fill="#e6eddc"/>
-<text x="16" y="388" font-family="Menlo,'DejaVu Sans Mono',monospace" font-size="16" fill="#344326">[edu] stats · actualizado 2026-11-25 UTC · cada día</text>
+<text x="16" y="388" font-family="'DejaVu Sans Mono','Liberation Mono',Consolas,ui-monospace,Menlo,monospace" font-size="15" fill="#344326">[edu] stats · actualizado 2026-11-25 UTC · cada día</text>
 </g><rect x=".5" y=".5" width="899" height="397" rx="12" fill="none" stroke="#d3d7cf"/></svg>
