@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/update-activity.mjs
+      - scripts/terminal.mjs
       - .github/workflows/activity.yml
 
 permissions:

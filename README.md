@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg?v=profile-refresh-4" width="100%" alt="Edu Ballesteros. Desarrollador Backend Java en Sevilla. APIs, integración bancaria e inteligencia artificial aplicada."/>
+  <img src="assets/banner.svg?v=mac-1" width="100%" alt="Edu Ballesteros. Desarrollador Backend Java en Sevilla. APIs, integración bancaria e inteligencia artificial aplicada."/>
 </p>
 
 <p align="center">
@@ -133,7 +133,7 @@ Prácticas de desarrollo web de abril a julio y Backend Junior de julio a septie
 
 ## Actividad
 
-<img src="assets/activity-terminal.svg?v=profile-refresh-4" width="100%" alt="Terminal Linux blanca con estadísticas reales de GitHub y rachas de contribuciones. Actualización diaria."/>
+<img src="assets/activity-terminal.svg?v=mac-1" width="100%" alt="Terminal de macOS que ejecuta gh stats y muestra estadísticas reales de GitHub y rachas de contribuciones. Actualización diaria."/>
 
 ---
 
