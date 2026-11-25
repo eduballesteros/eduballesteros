@@ -157,8 +157,7 @@ Planifica de noche, ejecuta de día. App basada en *Los 7 hábitos* de Covey: ca
 ## 📈 Actividad
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=eduballesteros&theme=tokyonight" height="180" alt="Estadísticas de GitHub"/>
-  <img src="https://streak-stats.demolab.com?user=eduballesteros&theme=tokyonight&hide_border=true&border_radius=10&locale=es" height="180" alt="Racha de contribuciones"/>
+  <img src="assets/activity-terminal.svg" width="100%" alt="Terminal Linux con mis estadísticas de GitHub, rachas y calendario de contribuciones, actualizada cada día"/>
 </p>
 
 ## 📫 Contacto
