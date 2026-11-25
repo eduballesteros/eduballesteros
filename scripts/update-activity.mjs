@@ -43,8 +43,12 @@ function graphql(after) {
 }
 
 const text = (x,y,value,color='#2e3436',extra='') => `<text x="${x}" y="${y}" fill="${color}" xml:space="preserve" ${extra}>${escape(value)}</text>`;
-const prompt = (x,y,command='') => `<text x="${x}" y="${y}" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ ${escape(command)}</tspan></text>`;
-const field = (x,y,label,value) => `<text x="${x}" y="${y}" xml:space="preserve"><tspan fill="#a45400" font-weight="700">${escape(label)}</tspan><tspan>: ${escape(value)}</tspan></text>`;
+const mono = "'DejaVu Sans Mono','Liberation Mono',Consolas,ui-monospace,Menlo,monospace";
+// The cursor is a glyph after the prompt, so it sits right after "$ " whatever font the viewer has.
+const prompt = (x,y,command='',cursor=false) => `<text x="${x}" y="${y}" xml:space="preserve"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/github</tspan><tspan>$ ${escape(command)}</tspan>${cursor ? '<tspan class="cursor">█</tspan>' : ''}</text>`;
+const heading = (x,y,value) => `<text x="${x}" y="${y}" xml:space="preserve" fill="#a45400" font-size="17" font-weight="700" letter-spacing="1">${escape(value)}</text><path d="M${x} ${y+10}h360" stroke="#d3d7cf"/>`;
+// Labels are padded to one width so the values line up in a column, as in a real terminal.
+const field = (x,y,label,value,width) => `<text x="${x}" y="${y}" xml:space="preserve"><tspan fill="#555753">${escape((label + ':').padEnd(width + 2))}</tspan><tspan font-weight="700">${escape(value)}</tspan></text>`;
 const frame = function frame(height,title,description,body,status) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${height}" viewBox="0 0 900 ${height}" role="img" aria-labelledby="title description">
 <title id="title">${escape(title)}</title><desc id="description">${escape(description)}</desc>
@@ -57,9 +61,9 @@ const frame = function frame(height,title,description,body,status) {
 <circle cx="816" cy="20" r="11" fill="#e2e2e2"/><path d="M811 24h10" stroke="#555753" stroke-width="1.6"/>
 <circle cx="847" cy="20" r="11" fill="#e2e2e2"/><rect x="842.5" y="15.5" width="9" height="9" rx="1" fill="none" stroke="#555753" stroke-width="1.5"/>
 <circle cx="878" cy="20" r="11" fill="#e95420"/><path d="m874 16 8 8m0-8-8 8" stroke="#fff" stroke-width="1.6"/>
-<g font-family="Menlo,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace" font-size="20" fill="#2e3436">${body}</g>
+<g font-family="${mono}" font-size="20" fill="#2e3436">${body}</g>
 <rect y="${height-30}" width="900" height="30" fill="#e6eddc"/>
-<text x="16" y="${height-10}" font-family="Menlo,'DejaVu Sans Mono',monospace" font-size="16" fill="#344326">${escape(status)}</text>
+<text x="16" y="${height-10}" font-family="${mono}" font-size="15" fill="#344326">${escape(status)}</text>
 </g><rect x=".5" y=".5" width="899" height="${height-1}" rx="12" fill="none" stroke="#d3d7cf"/></svg>\n`;
 };
 export function render(profile, date) {
@@ -71,17 +75,17 @@ export function render(profile, date) {
   const description = `${username}: ${format(calendar.totalContributions)} contribuciones en los últimos 12 meses. Racha actual: ${current} días. Mejor racha del periodo: ${longest} días.`;
   const body = [
     prompt(28,84,'gh stats --last-year'),
-    text(28,132,'GITHUB · ÚLTIMOS 12 MESES','#386b08','font-weight="700"'),
-    field(28,174,'Contribuciones',format(calendar.totalContributions)),
-    field(28,210,'Pull requests',format(collection.totalPullRequestContributions)),
-    field(28,246,'Repos públicos',format(profile.repositoryCount)),
-    field(28,282,'Estrellas',format(profile.stars)),
-    text(490,132,'RACHAS DE CONTRIBUCIONES','#386b08','font-weight="700"'),
-    field(490,174,'Actual',`${current} ${current === 1 ? 'día' : 'días'}`),
-    field(490,210,'Mejor',`${longest} ${longest === 1 ? 'día' : 'días'}`),
-    field(490,246,'Desde',days[0].date),
-    field(490,282,'Hasta',date),
-    prompt(28,340),'<rect class="cursor" x="292" y="322" width="11" height="23" fill="#2e3436"/>',
+    heading(28,132,'GITHUB · ÚLTIMOS 12 MESES'),
+    field(28,178,'Contribuciones',format(calendar.totalContributions),14),
+    field(28,212,'Pull requests',format(collection.totalPullRequestContributions),14),
+    field(28,246,'Repos públicos',format(profile.repositoryCount),14),
+    field(28,280,'Estrellas',format(profile.stars),14),
+    heading(490,132,'RACHAS DE CONTRIBUCIONES'),
+    field(490,178,'Actual',`${current} ${current === 1 ? 'día' : 'días'}`,6),
+    field(490,212,'Mejor',`${longest} ${longest === 1 ? 'día' : 'días'}`,6),
+    field(490,246,'Desde',days[0].date,6),
+    field(490,280,'Hasta',date,6),
+    prompt(28,336,'',true),
   ].join('\n');
   return frame(398,'Terminal Linux · Actividad de GitHub',description,body,`[edu] stats · actualizado ${date} UTC · cada día`);
 }

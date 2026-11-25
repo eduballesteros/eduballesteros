@@ -6,12 +6,12 @@
 <path d="M16 14h14m-14 6h14m-14 6h14" stroke="#555753" stroke-width="1.6" stroke-linecap="round"/>
 <text x="450" y="26" text-anchor="middle" font-family="'Ubuntu','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#2e3436">edu@sevilla: ~/about</text>
 <circle cx="816" cy="20" r="11" fill="#e2e2e2"/><path d="M811 24h10" stroke="#555753" stroke-width="1.6"/><circle cx="847" cy="20" r="11" fill="#e2e2e2"/><rect x="842.5" y="15.5" width="9" height="9" rx="1" fill="none" stroke="#555753" stroke-width="1.5"/><circle cx="878" cy="20" r="11" fill="#e95420"/><path d="m874 16 8 8m0-8-8 8" stroke="#fff" stroke-width="1.6"/>
-<g font-family="'DejaVu Sans Mono','Liberation Mono',Consolas,monospace" font-size="20" fill="#2e3436">
+<g font-family="'DejaVu Sans Mono','Liberation Mono',Consolas,ui-monospace,Menlo,monospace" font-size="20" fill="#2e3436">
 <text x="28" y="84"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/about</tspan><tspan>$ whoami</tspan></text>
 <text x="28" y="138" font-size="38" font-weight="700">Edu Ballesteros<tspan fill="#e95420">.</tspan></text>
 <text x="28" y="178" font-size="23" font-weight="700" fill="#a45400">Backend Java · APIs · IA aplicada</text>
 <text x="28" y="216">NTT DATA / Unicaja · Integración bancaria</text>
 <text x="28" y="250" fill="#555753">Sevilla, España · Java &amp; Spring Boot</text>
-<text x="28" y="290"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/about</tspan><tspan>$ </tspan></text><rect class="cursor" x="280" y="272" width="11" height="23" fill="#2e3436"/>
-</g><rect y="312" width="900" height="30" fill="#e6eddc"/><text x="16" y="332" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" fill="#344326">[edu] 0:about*  1:projects-  2:learning</text></g><rect x=".5" y=".5" width="899" height="341" rx="12" fill="none" stroke="#d3d7cf"/>
+<text x="28" y="290"><tspan fill="#386b08" font-weight="700">edu@sevilla</tspan><tspan>:</tspan><tspan fill="#245c91" font-weight="700">~/about</tspan><tspan xml:space="preserve">$ </tspan><tspan class="cursor">█</tspan></text>
+</g><rect y="312" width="900" height="30" fill="#e6eddc"/><text x="16" y="332" font-family="'DejaVu Sans Mono','Liberation Mono',Consolas,ui-monospace,Menlo,monospace" font-size="16" fill="#344326">[edu] 0:about*  1:projects-  2:learning</text></g><rect x=".5" y=".5" width="899" height="341" rx="12" fill="none" stroke="#d3d7cf"/>
 </svg>
