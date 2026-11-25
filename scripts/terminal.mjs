@@ -17,12 +17,12 @@ const TYPE = 0.065;     // seconds per typed character
 const s = n => `${n.toFixed(2)}s`;
 const fixed = text => `textLength="${(text.length * CH).toFixed(1)}" lengthAdjust="spacing"`;
 // Hidden until `at`, then shown for good.
-const showAt = at => `<animate attributeName="opacity" values="0;1" keyTimes="0;1" calcMode="discrete" dur="${s(at)}" fill="freeze"/>`;
+export const showAt = at => `<animate attributeName="opacity" values="0;1" keyTimes="0;1" calcMode="discrete" dur="${s(at)}" fill="freeze"/>`;
 
-export function line(y, parts, at) {
+export function line(y, parts, at, x = X) {
   const plain = parts.map(p => p.text).join('');
   const spans = parts.map(p => `<tspan${p.color ? ` fill="${p.color}"` : ''}${p.bold ? ' font-weight="700"' : ''}>${escape(p.text)}</tspan>`).join('');
-  return `<text x="${X}" y="${y}" xml:space="preserve" ${fixed(plain)}>${at ? showAt(at) : ''}${spans}</text>`;
+  return `<text x="${x}" y="${y}" xml:space="preserve" ${fixed(plain)}>${at ? showAt(at) : ''}${spans}</text>`;
 }
 
 export function terminal({ title, height, user = 'edu@macbook', dir = '~', steps, lastLogin }) {

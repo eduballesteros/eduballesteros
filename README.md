@@ -1,23 +1,19 @@
 <p align="center">
-  <img src="assets/banner.svg?v=mac-2" width="100%" alt="Edu Ballesteros. Desarrollador Backend Java en Sevilla. APIs, integración bancaria e inteligencia artificial aplicada."/>
+  <img src="assets/banner.svg?v=mac-3" width="100%" alt="Edu Ballesteros. Desarrollador Backend Java en Sevilla. APIs, integración bancaria e inteligencia artificial aplicada."/>
 </p>
 
 <p align="center">
-  <b>Java & Spring Boot</b> &nbsp; / &nbsp; Integración bancaria &nbsp; / &nbsp; IA aplicada
+  <a href="https://www.eduballesteros.es"><img src="https://img.shields.io/badge/WEB-eduballesteros.es-ff9f0a?style=for-the-badge&labelColor=1c1c1e" alt="Visitar mi portfolio"/></a>
+  <a href="https://www.linkedin.com/in/eduballesteross/"><img src="https://img.shields.io/badge/LINKEDIN-Hablemos-0a84ff?style=for-the-badge&labelColor=1c1c1e" alt="Contactar en LinkedIn"/></a>
+  <a href="https://www.eduballesteros.es/cv-eduardo-ballesteros.pdf"><img src="https://img.shields.io/badge/CV-Descargar-30d158?style=for-the-badge&labelColor=1c1c1e" alt="Descargar mi currículum en PDF"/></a>
 </p>
 
 <p align="center">
-  <a href="https://www.eduballesteros.es"><img src="https://img.shields.io/badge/WEB-eduballesteros.es-e95420?style=for-the-badge&labelColor=2e3436" alt="Visitar mi portfolio"/></a>
-  <a href="https://www.linkedin.com/in/eduballesteross/"><img src="https://img.shields.io/badge/LINKEDIN-Hablemos-245c91?style=for-the-badge&labelColor=2e3436" alt="Contactar en LinkedIn"/></a>
-  <a href="https://www.eduballesteros.es/cv-eduardo-ballesteros.pdf"><img src="https://img.shields.io/badge/CV-Descargar-386b08?style=for-the-badge&labelColor=2e3436" alt="Descargar mi currículum en PDF"/></a>
-</p>
-
-<p align="center">
-  <a href="#perfil">Perfil</a> &nbsp; · &nbsp;
-  <a href="#proyectos">Proyectos</a> &nbsp; · &nbsp;
-  <a href="#stack">Stack</a> &nbsp; · &nbsp;
-  <a href="#trayectoria">Trayectoria</a> &nbsp; · &nbsp;
-  <a href="#actividad">Actividad</a>
+  <a href="#perfil"><code>~/perfil</code></a> &nbsp; · &nbsp;
+  <a href="#proyectos"><code>~/proyectos</code></a> &nbsp; · &nbsp;
+  <a href="#stack"><code>~/stack</code></a> &nbsp; · &nbsp;
+  <a href="#trayectoria"><code>~/trayectoria</code></a> &nbsp; · &nbsp;
+  <a href="#actividad"><code>~/actividad</code></a>
 </p>
 
 ---
